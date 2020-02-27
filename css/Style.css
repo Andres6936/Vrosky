@@ -1,0 +1,71 @@
+body {
+    font-family: Arial, "MS Trebuchet", sans-serif;
+}
+
+p {
+    margin: 0 0 20px 0;
+}
+
+p, li {
+    line-height: 20px;
+}
+
+blockquote {
+    line-height: 20px;
+    font-style: italic;
+    font-size: small;
+    /* For avoid an overflow with the cite and next text */
+    margin-bottom: 2em;
+}
+
+blockquote cite {
+    /* We need that the cite be relative at blockquote */
+    position: relative;
+    /* We are trying align-text to right  */
+    right: -35%;
+    /* For avoid an overflow with the text of blockquote */
+    bottom: -8px;
+}
+
+#page-header {
+    width: 100%;
+    padding: 1em;
+    font-size: 140%;
+    top: 100vh;
+    left: 0;
+    transition: opacity .2s ease-in-out;
+    text-align: center;
+}
+
+#page-header nav a {
+    display: inline-block;
+    outline: none;
+    text-decoration: none;
+    opacity: .7;
+    padding: 0 1em;
+    color: black;
+    transition: opacity .2s ease-in-out;
+}
+
+#page-header nav img {
+    height: 40px;
+    /* Align the image with the text */
+    transform: translateY(+35%);
+}
+
+#page-header nav a:hover, nav a:focus {
+    opacity: 1;
+}
+
+/*
+Need to clear the floats on the footer so that it sits at the bottom of
+the page. Remember that whenever we float something, the element gets
+removed from the normal document flow. Clearing an element tells the
+browser not to float that element.
+ */
+#page-footer {
+    clear: both;
+    display: block;
+    text-align: center;
+    width: 100%;
+}
