@@ -2,29 +2,8 @@ body {
     font-family: Arial, "MS Trebuchet", sans-serif;
 }
 
-p {
-    margin: 0 0 20px 0;
-}
-
 p, li {
     line-height: 20px;
-}
-
-blockquote {
-    line-height: 20px;
-    font-style: italic;
-    font-size: small;
-    /* For avoid an overflow with the cite and next text */
-    margin-bottom: 2em;
-}
-
-blockquote cite {
-    /* We need that the cite be relative at blockquote */
-    position: relative;
-    /* We are trying align-text to right  */
-    right: -35%;
-    /* For avoid an overflow with the text of blockquote */
-    bottom: -8px;
 }
 
 #page-header {
@@ -57,14 +36,23 @@ blockquote cite {
     opacity: 1;
 }
 
-/*
-Need to clear the floats on the footer so that it sits at the bottom of
-the page. Remember that whenever we float something, the element gets
-removed from the normal document flow. Clearing an element tells the
-browser not to float that element.
- */
+.button-slider {
+    display: table-cell;
+    text-align: center;
+    width: 60px;
+}
+
+.button-slider > img {
+    width: 40px;
+    height: 40px;
+}
+
+.slider {
+    display: table-cell;
+    text-align: center;
+}
+
 #page-footer {
-    clear: both;
     display: block;
     text-align: center;
     width: 100%;
