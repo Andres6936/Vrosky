@@ -11,6 +11,9 @@ class Slider {
         this.sliderOne = document.getElementById("slider-one");
         this.sliderTwo = document.getElementById("slider-two");
         this.sliderThree = document.getElementById("slider-three");
+
+        this.hiddenSliderTwo();
+        this.hiddenSliderThree();
     }
 
     hiddenSliderOne() {
@@ -37,6 +40,10 @@ class Slider {
         this.sliderThree.style.display = "table-cell";
     }
 
+    showPrevSlider() {
+
+    }
+
     showNextSlider() {
         if (this.sliderActualShowed === 1) {
             this.hiddenSliderOne();
@@ -56,11 +63,10 @@ class Slider {
 
 let sliders = new Slider();
 
-sliders.hiddenSliderTwo();
-sliders.hiddenSliderThree();
+function showPrevSlider() {
+    sliders.showPrevSlider();
+}
 
 function showNextSlider() {
     sliders.showNextSlider();
 }
-
-console.log("Hey");
