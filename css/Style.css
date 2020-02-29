@@ -66,6 +66,11 @@ p, li {
     width: 80%;
 }
 
+.responsive-image {
+    width: 100%;
+    height: auto;
+}
+
 #page-footer {
     display: block;
     text-align: center;
