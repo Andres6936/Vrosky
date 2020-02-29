@@ -7,17 +7,29 @@ This is a dead-simple responsive design solution.
  */
 
 body {
-    /* 95% of 480px = 456px */
-    width: 95%;
-    /* Top and Bottom: 0, Right and Left: 5px */
-    margin: 0 5px;
-}
-
-nav, section, header, footer {
-    margin: 0 10px 0 10px;
+    width: 100%;
+    margin: 0;
 }
 
 #sidebar, #posts {
     float: none;
     width: 100%;
+}
+
+#page-header {
+    width: 100%;
+    max-width: 480px;
+    font-size: 12px;
+}
+
+#page-header > nav {
+    margin: 0 auto;
+}
+
+#page-header > nav > img {
+    width: 70px;
+}
+
+#page-header > nav > a {
+    padding: 0 3px;
 }
