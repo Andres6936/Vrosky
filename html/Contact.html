@@ -7,10 +7,13 @@
     <title>Title</title>
 
 
-    <link rel="stylesheet" type="text/css" href="../css/Style.css">
     <!-- We could also use media queries when we link the style sheet,
     so we can keep our mobile style sheet in a separate file -->
     <link rel="stylesheet" type="text/css" href="../css/Mobile.css" media="only screen and (max-device-width: 480px)">
+
+    <link rel="stylesheet" type="text/css" href="../lib/bootstrap/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="../css/Header.css">
+    <link rel="stylesheet" type="text/css" href="../css/Contact.css">
 </head>
 <body role="document">
 
@@ -25,15 +28,70 @@
     </nav>
 </header>
 
-<!-- Principal Content -->
-<section id="posts" role="main">
-    
-</section>
+<div class="container">
+    <section id="newsletter" class="text-center">
+        <h4>Stay connected with us. Join the newsletter to receive fresh info.</h4>
+        <form class="form-inline" method="POST">
+            <div class="form-group">
+                <label for="newsletter-name"></label>
+                <div>
+                    <input id="newsletter-name" class="form-control" placeholder="You name">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="newsletter-email"></label>
+                <div>
+                    <input id="newsletter-email" class="form-control" placeholder="Your email">
+                </div>
+            </div>
+            <div>
+                <button type="submit" class="btn btn-primary">Join now!</button>
+            </div>
+        </form>
+    </section>
 
-<!-- Footer Page -->
-<footer id="page-footer" role="contentinfo">
-    <p>Copyright &copy; (2020) Vrosky</p>
-</footer>
+    <div class="row">
+        <div class="col-sm-offset-2 col-sm-8">
+            <form class="form-horizontal">
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="contact-name">Name</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="contact-name" placeholder="Full name">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="contact-email">Email</label>
+                    <div class="col-sm-10">
+                        <input class="form-control" type="text" id="contact-email" placeholder="Contact email">
+                    </div>
+                </div>
+                <div class="form-group">
+                    <label class="col-sm-2 control-label" for="contact-message">Message</label>
+                    <div class="col-sm-10">
+                        <textarea id="contact-message" class="form-control" rows="3"
+                                  placeholder="Type your message"></textarea>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <label class="checkbox">
+                            <input type="checkbox" value="">
+                            I want to subscribe to receive updates from the company.
+                        </label>
+                    </div>
+                </div>
+                <div class="form-group">
+                    <div class="col-sm-offset-2 col-sm-10">
+                        <button class="btn btn-success btn-lg" type="submit">Submit</button>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>
+
+<script src="../lib/jquery/jquery-3.4.1.js"></script>
+<script src="../lib/bootstrap/bootstrap.js"></script>
 
 </body>
 </html>
