@@ -2,6 +2,7 @@
 
 include_once("Footer.php");
 include_once("Bootstrap.php");
+include_once("Navigation.php");
 
 final class Template
 {
@@ -21,5 +22,11 @@ final class Template
     {
         $var = new Bootstrap();
         print $var->getBodyBootstrap();
+    }
+
+    public function showNavigation(array $_links)
+    {
+        $var = new Navigation($_links);
+        print $var->getNavigation();
     }
 }
