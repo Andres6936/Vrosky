@@ -105,8 +105,11 @@
 </section>
 
 <?php
-include("templates/footer.php");
-include("templates/scriptsBodyBootstrap.php")
+include_once("templates/Template.php");
+
+$var = new Template();
+$var->showFooter();
+$var->showBodyBootstrap();
 ?>
 
 </body>

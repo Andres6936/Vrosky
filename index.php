@@ -8,7 +8,12 @@
 
     <title>Vrosky</title>
 
-    <?php include("templates/scriptsHeadBootstrap.php") ?>
+    <?php
+    include_once("templates/Template.php");
+
+    $var = new Template();
+    $var->showHeadBootstrap();
+    ?>
 
 </head>
 <body role="document">
@@ -76,12 +81,11 @@
 </section>
 
 <?php
-include("templates/Template.php");
+include_once("templates/Template.php");
 
 $var = new Template();
 $var->showFooter();
-
-include("templates/scriptsBodyBootstrap.php")
+$var->showBodyBootstrap();
 ?>
 
 <!-- Script for controller the visualization of slider -->
