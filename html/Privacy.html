@@ -8,7 +8,12 @@
 
     <title>Privacy</title>
 
-    <?php include("templates/scriptsHeadBootstrap.php") ?>
+    <?php
+    include_once("templates/Template.php");
+
+    $var = new Template();
+    $var->showHeadBootstrap();
+    ?>
 
 </head>
 <body role="document">
