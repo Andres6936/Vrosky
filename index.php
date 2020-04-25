@@ -93,20 +93,3 @@ $var->showBodyBootstrap();
 
 </body>
 </html>
-
-<?php
-
-final class Application
-{
-    function __construct()
-    {
-        $this->main();
-    }
-
-    function main()
-    {
-
-    }
-}
-
-$app = new Application();
