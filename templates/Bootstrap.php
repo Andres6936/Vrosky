@@ -1,8 +1,10 @@
 <?php
 
+declare(strict_types=1);
+
 final class Bootstrap
 {
-    public function getHeadBootstrap()
+    public function getHeadBootstrap(): string
     {
         return '
             <!--- Support to Bootstrap 4.4.1 -->
@@ -12,7 +14,7 @@ final class Bootstrap
         ';
     }
 
-    public function getBodyBootstrap()
+    public function getBodyBootstrap(): string
     {
         return '
             <!-- Optional JavaScript -->
