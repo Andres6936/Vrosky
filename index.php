@@ -8,15 +8,8 @@
 
     <title>Vrosky</title>
 
-    <!--- Support to Bootstrap 4.4.1 -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
-          integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
-          crossorigin="anonymous">
+    <?php include("templates/scriptsHeadBootstrap.php") ?>
 
-    <link rel="stylesheet" type="text/css" href="./css/Style.css">
-    <!-- We could also use media queries when we link the style sheet,
-    so we can keep our mobile style sheet in a separate file -->
-    <link rel="stylesheet" type="text/css" href="./css/Mobile.css" media="only screen and (max-device-width: 480px)">
 </head>
 <body role="document">
 
@@ -82,33 +75,30 @@
 
 </section>
 
-<!-- Footer Page -->
-<footer class="py-4 text-black-50" role="contentinfo">
-    <div class="text-center">
-        <small>Copyright &copy; (2020) Vrosky</small>
-    </div>
-</footer>
-
-<!-- Optional JavaScript -->
-<!-- jQuery first, then Popper.js, then Bootstrap JS -->
-
-<!-- Support to JQuery 3.4.1 -->
-<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
-        integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
-        crossorigin="anonymous"></script>
-
-<!-- Support to Popper 1.16.0 -->
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
-        crossorigin="anonymous"></script>
-
-<!-- Support to Bootstrap Scripts 4.4.1 -->
-<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
-        integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
-        crossorigin="anonymous"></script>
+<?php
+include("templates/footer.php");
+include("templates/scriptsBodyBootstrap.php")
+?>
 
 <!-- Script for controller the visualization of slider -->
 <script src="./js/Slider.js" type="text/javascript"></script>
 
 </body>
 </html>
+
+<?php
+
+final class Application
+{
+    function __construct()
+    {
+        $this->main();
+    }
+
+    function main()
+    {
+
+    }
+}
+
+$app = new Application();
