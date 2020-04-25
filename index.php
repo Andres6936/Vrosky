@@ -76,7 +76,11 @@
 </section>
 
 <?php
-include("templates/footer.php");
+include("templates/Template.php");
+
+$var = new Template();
+$var->showFooter();
+
 include("templates/scriptsBodyBootstrap.php")
 ?>
 
