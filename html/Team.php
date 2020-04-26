@@ -9,7 +9,7 @@
     <title>Team</title>
 
     <?php
-    include_once __DIR__ . "../templates/Template.php";
+    require_once '../templates/Template.php';
 
     $var = new Template();
     $var->showHeadBootstrap();
@@ -25,13 +25,13 @@
     <div class="collapse navbar-collapse">
         <ul class="navbar-nav mr-auto">
             <li class="nav-item active">
-                <a class="nav-link" href="Team.html">Team</a>
+                <a class="nav-link" href="Team.php">Team</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Privacy.html">Privacy</a>
+                <a class="nav-link" href="Privacy.php">Privacy</a>
             </li>
             <li class="nav-item">
-                <a class="nav-link" href="Contact.html">Contact</a>
+                <a class="nav-link" href="Contact.php">Contact</a>
             </li>
         </ul>
 
@@ -110,8 +110,6 @@
 </section>
 
 <?php
-include_once( __DIR__ . "../templates/Template.php");
-
 $var = new Template();
 $var->showFooter();
 $var->showBodyBootstrap();

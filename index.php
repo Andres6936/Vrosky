@@ -21,7 +21,7 @@
 <?php
 include_once("templates/Template.php");
 
-$links = ["html/Team.html", "html/Privacy.html", "html/Contact.html"];
+$links = ["html/Team.php", "html/Privacy.php", "html/Contact.php"];
 
 $var = new Template();
 $var->showNavigation($links);
