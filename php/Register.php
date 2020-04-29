@@ -155,25 +155,28 @@ $var->showNavigation($links);
 
     <!-- Labels -->
     <div class="form-label-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-        <input id="inputUsername" type="text" class="form-control" placeholder="Username">
+        <input id="inputUsername" name="username" type="text" class="form-control" placeholder="Username">
         <label for="inputUsername">Username</label>
         <span class="help-block"><?php echo $username_err; ?></span>
     </div>
     <div class="form-label-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-        <input id="inputPassword" type="password" class="form-control" placeholder="Password">
+        <input id="inputPassword" name="password" type="password" class="form-control" placeholder="Password">
         <label for="inputPassword">Password</label>
         <span class="help-block"><?php echo $password_err; ?></span>
     </div>
     <div class="form-label-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
-        <input id="inputConfirmPassword" type="password" class="form-control" placeholder="Confirm Password">
+        <input id="inputConfirmPassword" name="confirm_password" type="password" class="form-control"
+               placeholder="Confirm Password">
         <label for="inputConfirmPassword">Confirm Password</label>
         <span class="help-block"><?php echo $confirm_password_err; ?></span>
     </div>
     <div class="form-group">
-        <input type="submit" class="btn btn-primary" value="Submit">
-        <input type="reset" class="btn btn-default" value="Reset">
+        <button type="submit" class="btn btn-lg btn-block btn-primary">Sign Up</button>
     </div>
-    <p>Already have an account? <a href="Login.php">Login here</a>.</p>
+    <div class="form-group">
+        <button type="reset" class="btn btn-sm btn-block btn-default">Reset</button>
+    </div>
+    <p class="mt-1 text-center">Already have an account?<a class="ml-2" href="Login.php">Login here</a>.</p>
 </form>
 
 <?php
