@@ -2,12 +2,13 @@ Create Database If Not Exists Vrosky;
 
 Create Table If Not Exists Vrosky.Users
 (
-    User_ID   Int         NOT NULL AUTO_INCREMENT,
-    User_Name Varchar(20) Not Null,
-    User_Pass Varchar(80) Not Null,
+    ID        Int          NOT NULL AUTO_INCREMENT,
+    Username  Varchar(50)  Not Null UNIQUE,
+    Password  Varchar(255) Not Null,
+    Create_At DATETIME DEFAULT CURRENT_TIMESTAMP,
 
-    PRIMARY KEY (User_ID)
+    PRIMARY KEY (ID)
 );
 
-INSERT INTO Vrosky.Users (User_Name, User_Pass)
+INSERT INTO Vrosky.Users (Username, Password)
 VALUES ('Andres6936', 'PassNotNull');

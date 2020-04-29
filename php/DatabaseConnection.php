@@ -1,10 +1,14 @@
 <?php
 
-$pdo = new PDO('mysql:host=localhost;dbname=Elecciones;
-             charset=utf8', 'root', 'localhost');
+// Database credentials.
+define('DB_SERVER', '127.0.0.1');
+define('DB_USERNAME', 'root');
+define('DB_PASSWORD', 'localhost');
+define('DB_NAME', 'Vrosky');
 
-// This "silent failure" mode makes it more difficult for us to
-// find out when something goes wrong and handle it gracefully.
-// With this code void the "silent failure".
-$pdo->setAttribute(PDO::ATTR_ERRMODE,
-    PDO::ERRMODE_EXCEPTION);
+$mySQL = new mysqli(DB_SERVER, DB_USERNAME, DB_PASSWORD, DB_NAME);
+
+// Check connection
+if ($mySQL === false) {
+    die('Error: Could not connect.');
+}
