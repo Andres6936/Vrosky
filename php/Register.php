@@ -89,6 +89,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // At the time of login we'll verify the given password with the password
             // hash stored in the database using the PHP password_verify() function.
+
+            // Note: Password salting is a technique which is widely used to secure
+            // passwords by randomizing password hashes, so that if two users have
+            // the same password, they will not have the same password hashes.
+            // This is done by appending or prepending a random string, called a salt,
+            // to the password before hashing.
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
 
             // Attempt to execute the prepared statement
