@@ -15,6 +15,24 @@
     $var->showHeadBootstrap();
     ?>
 
+    <style>
+
+        /**
+         * Extra utilities
+         */
+        .flex-equal > * {
+            -ms-flex: 1;
+            flex: 1;
+        }
+
+        @media (min-width: 768px) {
+            .flex-md-equal > * {
+                -ms-flex: 1;
+                flex: 1;
+            }
+        }
+    </style>
+
 </head>
 <body role="document">
 
@@ -34,6 +52,30 @@ $var->showNavigation($links);
             marketing efforts with this example based on Apple’s
             marketing pages.</p>
         <a class="btn btn-outline-secondary">Coming Soon</a>
+    </div>
+</div>
+
+<div class="d-md-flex flex-md-equal w-100 my-md-3 pl-md-3">
+    <!-- First Position -->
+    <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px;
+            border-radius: 21px 21px 0 0">
+        </div>
+    </div>
+
+    <!-- Second Position -->
+    <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden">
+        <div class="my-3 py-3">
+            <h2 class="display-5">Another headline</h2>
+            <p class="lead">And an even wittier subheading.</p>
+        </div>
+        <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px;
+            border-radius: 21px 21px 0 0">
+        </div>
     </div>
 </div>
 
