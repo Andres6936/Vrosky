@@ -39,7 +39,7 @@
 <?php
 include_once("templates/Template.php");
 
-$links = ["html/Team.php", "html/Privacy.php", "html/Contact.php"];
+$links = ["php/Register.php", "html/Team.php", "html/Privacy.php", "html/Contact.php"];
 
 $var = new Template();
 $var->showNavigation($links);

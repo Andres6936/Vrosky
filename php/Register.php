@@ -140,7 +140,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <body role="document">
 
 <?php
-$links = ["../html/Team.php", "../html/Privacy.php", "../html/Contact.php"];
+$links = ["Register.php", "../html/Team.php", "../html/Privacy.php", "../html/Contact.php"];
 
 $var = new Template();
 $var->showNavigation($links);
