@@ -147,22 +147,26 @@ $var->showNavigation($links);
 ?>
 
 <form class="form-signin" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-    <h2>Sign Up</h2>
-    <p>Please fill this form to create an account.</p>
-    <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-        <label>Username</label>
-        <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
+    <!-- Header -->
+    <div class="text-center mb-4">
+        <h1 class="h3 mb-3 font-weight-normal">Sign Up</h1>
+        <p>Please fill this form to create an account.</p>
+    </div>
+
+    <!-- Labels -->
+    <div class="form-label-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+        <input id="inputUsername" type="text" class="form-control" placeholder="Username">
+        <label for="inputUsername">Username</label>
         <span class="help-block"><?php echo $username_err; ?></span>
     </div>
-    <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-        <label>Password</label>
-        <input type="password" name="password" class="form-control" value="<?php echo $password; ?>">
+    <div class="form-label-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+        <input id="inputPassword" type="password" class="form-control" placeholder="Password">
+        <label for="inputPassword">Password</label>
         <span class="help-block"><?php echo $password_err; ?></span>
     </div>
-    <div class="form-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
-        <label>Confirm Password</label>
-        <input type="password" name="confirm_password" class="form-control"
-               value="<?php echo $confirm_password; ?>">
+    <div class="form-label-group <?php echo (!empty($confirm_password_err)) ? 'has-error' : ''; ?>">
+        <input id="inputConfirmPassword" type="password" class="form-control" placeholder="Confirm Password">
+        <label for="inputConfirmPassword">Confirm Password</label>
         <span class="help-block"><?php echo $confirm_password_err; ?></span>
     </div>
     <div class="form-group">
