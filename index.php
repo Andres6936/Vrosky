@@ -27,6 +27,16 @@ $var = new Template();
 $var->showNavigation($links);
 ?>
 
+<div class="position-relative overflow-hidden text-center bg-light p-3 p-md-5 m-md-3">
+    <div class="col-md-5 p-lg-5 mx-auto my-5">
+        <h1 class="display-4 font-weight-normal">Punny Headline</h1>
+        <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your
+            marketing efforts with this example based on Apple’s
+            marketing pages.</p>
+        <a class="btn btn-outline-secondary">Coming Soon</a>
+    </div>
+</div>
+
 <!-- Principal Content -->
 <section class="container" id="posts" role="main">
 
