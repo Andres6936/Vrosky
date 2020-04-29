@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * This script will also generate errors if a user tries to submit the form without entering
+ *  any value, or if username entered by the user is already taken by another user.
+ */
+
 require_once 'DatabaseConnection.php';
 
 // Define variables and initialize with empty values
@@ -74,6 +79,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Set parameters
             $param_username = $username;
+
+            // Used the PHP password_hash() function to create password hash from the
+            // password string entered by the user. This function creates a password
+            // hash using a strong one-way hashing algorithm. It also generates and
+            // applies a random salt automatically when hashing the password; this
+            // means that even if two users have the same passwords, their password
+            // hashes will be different.
+
+            // At the time of login we'll verify the given password with the password
+            // hash stored in the database using the PHP password_verify() function.
             $param_password = password_hash($password, PASSWORD_DEFAULT); // Creates a password hash
 
             // Attempt to execute the prepared statement
