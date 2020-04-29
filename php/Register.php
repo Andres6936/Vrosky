@@ -122,7 +122,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Sign Up</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
+
     <style type="text/css">
         body {
             font: 14px sans-serif;
@@ -133,8 +133,24 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
             padding: 20px;
         }
     </style>
+
+    <?php
+    require_once '../templates/Template.php';
+
+    $var = new Template();
+    $var->showHeadBootstrap();
+    ?>
+
 </head>
 <body>
+
+<?php
+$links = ["../html/Team.php", "../html/Privacy.php", "../html/Contact.php"];
+
+$var = new Template();
+$var->showNavigation($links);
+?>
+
 <div class="wrapper">
     <h2>Sign Up</h2>
     <p>Please fill this form to create an account.</p>
@@ -162,6 +178,13 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         <p>Already have an account? <a href="Login.php">Login here</a>.</p>
     </form>
 </div>
+
+<?php
+$var = new Template();
+$var->showFooter();
+$var->showBodyBootstrap();
+?>
+
 </body>
 </html>
 
