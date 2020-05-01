@@ -49,7 +49,7 @@ $var->showNavigation($links);
         <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your
             marketing efforts with this example based on Apple’s
             marketing pages.</p>
-        <a class="btn btn-outline-secondary">Coming Soon</a>
+        <a class="btn btn-outline-secondary" href="html/Questions.php">Coming Soon</a>
     </div>
 </div>
 
