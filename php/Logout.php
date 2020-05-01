@@ -1,5 +1,10 @@
 <?php
 
+/*
+ * When the user clicks on the log out or sign out link, the script inside
+ * this file destroys the session and redirect the user back to the login page.
+ */
+
 // Initialize the session
 session_start();
 

@@ -1,5 +1,11 @@
 <?php
 
+/*
+ * In this script we havee the password reset utility to our login system.
+ * Using this feature logged in users can instantly reset their own
+ * password for their accounts.
+ */
+
 // Initialize the session
 session_start();
 
@@ -92,6 +98,15 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <div class="wrapper">
     <h2>Reset Password</h2>
     <p>Please fill out this form to reset your password.</p>
+
+    <!-- If data comes from external sources like form filled in by anonymous users,
+    there is a risk that it may contain malicious script indented to launch cross-site
+    scripting (XSS) attacks. Therefore, you must escape this data using the PHP
+    htmlspecialchars() function before displaying it in the browser, so that any HTML
+    tag it contains becomes harmless.
+
+    For example, after escaping special characters the string <script>alert("XSS")</script>
+    becomes &lt;script&gt;alert("XSS")&lt;/script&gt; which is not executed by the browser.-->
     <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
         <div class="form-group <?php echo (!empty($new_password_err)) ? 'has-error' : ''; ?>">
             <label>New Password</label>
