@@ -20,7 +20,7 @@ final class Navigation
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href=" ' . $this->links[0] . ' ">Sing Up</a>
+                            <a class="nav-link" href=" ' . $this->links[0] . ' ">Sign Up</a>
                         </li>                    
                         <li class="nav-item">
                             <a class="nav-link" href=" ' . $this->links[1] . ' ">Team</a>

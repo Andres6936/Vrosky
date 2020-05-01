@@ -37,8 +37,6 @@
 <body role="document">
 
 <?php
-include_once("templates/Template.php");
-
 $links = ["php/Register.php", "html/Team.php", "html/Privacy.php", "html/Contact.php"];
 
 $var = new Template();
@@ -142,9 +140,8 @@ $var->showNavigation($links);
 </section>
 
 <?php
-include_once("templates/Template.php");
-
 $var = new Template();
+
 $var->showFooter();
 $var->showBodyBootstrap();
 ?>
