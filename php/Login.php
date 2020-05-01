@@ -93,7 +93,11 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
     <title>Login</title>
+
+    <link rel="stylesheet" href="../css/floating-labels.css">
 
     <?php
     require_once '../templates/Template.php';
@@ -103,12 +107,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     ?>
 
 </head>
-<body>
-<div class="wrapper">
-    <h2>Login</h2>
-    <p>Please fill in your credentials to login.</p>
+<body role="document">
 
-    <!-- If data comes from external sources like form filled in by anonymous users,
+<?php
+$links = ["Register.php", "../html/Team.php", "../html/Privacy.php", "../html/Contact.php"];
+
+$var = new Template();
+$var->showNavigation($links);
+?>
+
+<!-- If data comes from external sources like form filled in by anonymous users,
     there is a risk that it may contain malicious script indented to launch cross-site
     scripting (XSS) attacks. Therefore, you must escape this data using the PHP
     htmlspecialchars() function before displaying it in the browser, so that any HTML
@@ -116,23 +124,31 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
     For example, after escaping special characters the string <script>alert("XSS")</script>
     becomes &lt;script&gt;alert("XSS")&lt;/script&gt; which is not executed by the browser.-->
-    <form action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
-        <div class="form-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
-            <label>Username</label>
-            <input type="text" name="username" class="form-control" value="<?php echo $username; ?>">
-            <span class="help-block"><?php echo $username_err; ?></span>
-        </div>
-        <div class="form-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
-            <label>Password</label>
-            <input type="password" name="password" class="form-control">
-            <span class="help-block"><?php echo $password_err; ?></span>
-        </div>
-        <div class="form-group">
-            <input type="submit" class="btn btn-primary" value="Login">
-        </div>
-        <p>Don't have an account? <a href="Register.php">Sign up now</a>.</p>
-    </form>
-</div>
+<form class="form-signin" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
+
+    <!-- Header -->
+    <div class="text-center mb-4">
+        <h1 class="h3 mb-3 font-weight-normal">Login</h1>
+        <p>Please fill in your credentials to login.</p>
+    </div>
+
+    <!-- Labels -->
+    <div class="form-label-group <?php echo (!empty($username_err)) ? 'has-error' : ''; ?>">
+        <input id="inputUsername" type="text" name="username" class="form-control" placeholder="Username">
+        <label for="inputUsername">Username</label>
+        <span class="help-block"><?php echo $username_err; ?></span>
+    </div>
+    <div class="form-label-group <?php echo (!empty($password_err)) ? 'has-error' : ''; ?>">
+        <input id="inputPassword" type="password" name="password" class="form-control" placeholder="Password">
+        <label for="inputPassword">Password</label>
+        <span class="help-block"><?php echo $password_err; ?></span>
+    </div>
+    <div class="form-group">
+        <input type="submit" class="btn btn-lg btn-block btn-primary" value="Login">
+    </div>
+    <p class="mt-1 text-center">Don't have an account?<a class="ml-2" href="Register.php">Sign up now</a>.</p>
+</form>
+
 
 <?php
 $var = new Template();

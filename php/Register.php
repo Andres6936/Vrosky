@@ -146,6 +146,14 @@ $var = new Template();
 $var->showNavigation($links);
 ?>
 
+<!-- If data comes from external sources like form filled in by anonymous users,
+    there is a risk that it may contain malicious script indented to launch cross-site
+    scripting (XSS) attacks. Therefore, you must escape this data using the PHP
+    htmlspecialchars() function before displaying it in the browser, so that any HTML
+    tag it contains becomes harmless.
+
+    For example, after escaping special characters the string <script>alert("XSS")</script>
+    becomes &lt;script&gt;alert("XSS")&lt;/script&gt; which is not executed by the browser.-->
 <form class="form-signin" action="<?php echo htmlspecialchars($_SERVER["PHP_SELF"]); ?>" method="post">
     <!-- Header -->
     <div class="text-center mb-4">
