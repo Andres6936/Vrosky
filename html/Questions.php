@@ -24,6 +24,17 @@ $var = new Template();
 $var->showNavigation($links);
 ?>
 
+<section class="row pt-sm-5" style="height: 620px">
+    <div class="col-sm-6 mx-auto w-75 h-100 p-3" style="outline: 1px solid darkgrey">
+        <h3 class="h3 text-center">Questions</h3>
+    </div>
+    <div>
+
+    </div>
+    <div>
+
+    </div>
+</section>
 
 <?php
 $var = new Template();
