@@ -1,7 +1,7 @@
 <?php
 
 /*
- * In this script we havee the password reset utility to our login system.
+ * In this script we have the password reset utility to our login system.
  * Using this feature logged in users can instantly reset their own
  * password for their accounts.
  */
@@ -82,17 +82,14 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <head>
     <meta charset="UTF-8">
     <title>Reset Password</title>
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css">
-    <style type="text/css">
-        body {
-            font: 14px sans-serif;
-        }
 
-        .wrapper {
-            width: 350px;
-            padding: 20px;
-        }
-    </style>
+    <?php
+    require_once '../templates/Template.php';
+
+    $var = new Template();
+    $var->showHeadBootstrap();
+    ?>
+
 </head>
 <body>
 <div class="wrapper">
@@ -124,5 +121,12 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
         </div>
     </form>
 </div>
+
+<?php
+$var = new Template();
+$var->showFooter();
+$var->showBodyBootstrap();
+?>
+
 </body>
 </html>
