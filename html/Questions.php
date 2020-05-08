@@ -21,9 +21,10 @@
 
 $links = array(
     "TEAM" => "Team.php",
+    "LOGOUT" => "../php/Logout.php",
+    "SIGNUP" => "../php/Register.php",
     "PRIVACY" => "Privacy.php",
     "CONTACT" => "Contact.php",
-    "SIGNUP" => "../php/Register.php"
 );
 
 $var = new Template();

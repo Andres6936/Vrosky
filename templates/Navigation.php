@@ -12,6 +12,12 @@ final class Navigation
 
     public function getNavigation()
     {
+        if (isset($_SESSION["LOGGEDIN"]) && $_SESSION["LOGGEDIN"] === true) {
+            $linkToRegisterOrLogin = '<a class="nav-link" href=" ' . $this->links["LOGOUT"] . ' ">Log Out</a>';
+        } else {
+            $linkToRegisterOrLogin = '<a class="nav-link" href=" ' . $this->links["SIGNUP"] . ' ">Sign Up</a>';
+        }
+
         return '
             <!-- Header and Navigation -->
             <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
@@ -20,7 +26,7 @@ final class Navigation
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href=" ' . $this->links["SIGNUP"] . ' ">Sign Up</a>
+                            ' . $linkToRegisterOrLogin . '
                         </li>                    
                         <li class="nav-item">
                             <a class="nav-link" href=" ' . $this->links["TEAM"] . ' ">Team</a>

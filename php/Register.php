@@ -142,6 +142,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <?php
 $links = array(
     "TEAM" => "../html/Team.php",
+    "LOGOUT" => "Logout.php",
     "SIGNUP" => "Register.php",
     "PRIVACY" => "../html/Privacy.php",
     "CONTACT" => "../html/Contact.php"

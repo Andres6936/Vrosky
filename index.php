@@ -39,6 +39,7 @@
 <?php
 $links = array(
     "TEAM" => "html/Team.php",
+    "LOGOUT" => "php/Logout.php",
     "SIGNUP" => "php/Register.php",
     "PRIVACY" => "html/Privacy.php",
     "CONTACT" => "html/Contact.php"
