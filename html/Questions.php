@@ -21,6 +21,7 @@
 
 $links = array(
     "TEAM" => "Team.php",
+    "INDEX" => "../index.php",
     "LOGOUT" => "../php/Logout.php",
     "SIGNUP" => "../php/Register.php",
     "PRIVACY" => "Privacy.php",

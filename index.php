@@ -38,6 +38,7 @@
 
 <?php
 $links = array(
+    "INDEX" => "#",
     "TEAM" => "html/Team.php",
     "LOGOUT" => "php/Logout.php",
     "SIGNUP" => "php/Register.php",

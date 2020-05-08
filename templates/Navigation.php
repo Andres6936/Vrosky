@@ -24,7 +24,7 @@ final class Navigation
         return '
             <!-- Header and Navigation -->
             <nav class="navbar navbar-expand-lg navbar-light bg-ligth">
-                <a class="navbar-brand" href="#">Vrosky</a>
+                <a class="navbar-brand" href=" ' . $this->links["INDEX"] . ' ">Vrosky</a>
             
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
