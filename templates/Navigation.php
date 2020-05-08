@@ -12,6 +12,9 @@ final class Navigation
 
     public function getNavigation()
     {
+        // Initialize the session
+        session_start();
+
         if (isset($_SESSION["LOGGEDIN"]) && $_SESSION["LOGGEDIN"] === true) {
             $linkToRegisterOrLogin = '<a class="nav-link" href=" ' . $this->links["LOGOUT"] . ' ">Log Out</a>';
         } else {
