@@ -37,7 +37,12 @@
 <body role="document">
 
 <?php
-$links = ["php/Register.php", "html/Team.php", "html/Privacy.php", "html/Contact.php"];
+$links = array(
+    "TEAM" => "html/Team.php",
+    "SIGNUP" => "php/Register.php",
+    "PRIVACY" => "html/Privacy.php",
+    "CONTACT" => "html/Contact.php"
+);
 
 $var = new Template();
 $var->showNavigation($links);

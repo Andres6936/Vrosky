@@ -20,7 +20,12 @@
 
 <?php
 
-$links = ["../php/Register.php", "#", "Privacy.php", "Contact.php"];
+$links = array(
+    "TEAM" => "Team.php",
+    "SIGNUP" => "../php/Register.php",
+    "PRIVACY" => "Privacy.php",
+    "CONTACT" => "Contact.php"
+);
 
 $var = new Template();
 $var->showNavigation($links);

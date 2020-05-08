@@ -20,16 +20,16 @@ final class Navigation
                 <div class="collapse navbar-collapse">
                     <ul class="navbar-nav mr-auto">
                         <li class="nav-item">
-                            <a class="nav-link" href=" ' . $this->links[0] . ' ">Sign Up</a>
+                            <a class="nav-link" href=" ' . $this->links["SIGNUP"] . ' ">Sign Up</a>
                         </li>                    
                         <li class="nav-item">
-                            <a class="nav-link" href=" ' . $this->links[1] . ' ">Team</a>
+                            <a class="nav-link" href=" ' . $this->links["TEAM"] . ' ">Team</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href=" ' . $this->links[2] . ' ">Privacy</a>
+                            <a class="nav-link" href=" ' . $this->links["PRIVACY"] . ' ">Privacy</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href=" ' . $this->links[3] . ' ">Contact</a>
+                            <a class="nav-link" href=" ' . $this->links["CONTACT"] . ' ">Contact</a>
                         </li>
                     </ul>
             
