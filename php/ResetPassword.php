@@ -10,7 +10,7 @@
 session_start();
 
 // Check if the user is logged in, if not then redirect to login page
-if (!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true) {
+if (!isset($_SESSION["LOGGEDIN"]) || $_SESSION["LOGGEDIN"] !== true) {
     header("location: Login.php");
     exit;
 }
@@ -55,7 +55,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 
             // Set parameters
             $param_password = password_hash($new_password, PASSWORD_DEFAULT);
-            $param_id = $_SESSION["id"];
+            $param_id = $_SESSION["ID"];
 
             // Attempt to execute the prepared statement
             if ($stmt->execute()) {
