@@ -32,16 +32,67 @@ $var = new Template();
 $var->showNavigation($links);
 ?>
 
-<section class="row pt-sm-5" style="height: 620px">
-    <div class="col-sm-6 mx-auto w-75 h-100 p-3" style="outline: 1px solid darkgrey">
-        <h3 class="h3 text-center">Questions</h3>
+<section class="col pt-sm-5">
+    <div class="col-sm-6 mx-auto w-75 h-100 p-3">
+        <h3 class="h3 text-center">Current Market</h3>
     </div>
-    <div>
 
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Size of the market (Number of potential consumers)</h5>
+            <p class="card-text">Text Here</p>
+        </div>
     </div>
-    <div>
 
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Relationship of the good with the need.</h5>
+            <p class="card-text">Text Here</p>
+        </div>
     </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Strength and influence of the competition</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Quality - price ratio compared to goods or services of the competition.</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Needs for after-sales services or care (e.g. maintenance).</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Availability of sales - distribution systems</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Effort demanded by sales.</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Possibilities of exploitation</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
+
 </section>
 
 <?php
