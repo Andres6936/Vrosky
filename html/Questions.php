@@ -37,35 +37,31 @@ $var->showNavigation($links);
         <h3 class="h3 text-center">Current Market</h3>
     </div>
 
-    <div class="col-sm-12 offset-sm-2">
-        <div class="row">
-            <div class="card col-sm-2" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-tittle">Size of the market (Number of potential consumers)</h5>
-                    <p class="card-text">Text Here</p>
-                </div>
-            </div>
+    <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Size of the market (Number of potential consumers)</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
 
-            <div class="card col-sm-2" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-tittle">Relationship of the good with the need.</h5>
-                    <p class="card-text">Text Here</p>
-                </div>
-            </div>
+    <div class="card col-sm-2" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Relationship of the good with the need.</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
 
-            <div class="card col-sm-2" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-tittle">Strength and influence of the competition</h5>
-                    <p class="card-text">Text Here</p>
-                </div>
-            </div>
+    <div class="card col-sm-2" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Strength and influence of the competition</h5>
+            <p class="card-text">Text Here</p>
+        </div>
+    </div>
 
-            <div class="card col-sm-2" style="width: 18rem;">
-                <div class="card-body">
-                    <h5 class="card-tittle">Quality - price ratio compared to goods or services of the competition.</h5>
-                    <p class="card-text">Text Here</p>
-                </div>
-            </div>
+    <div class="card col-sm-2" style="width: 18rem;">
+        <div class="card-body">
+            <h5 class="card-tittle">Quality - price ratio compared to goods or services of the competition.</h5>
+            <p class="card-text">Text Here</p>
         </div>
     </div>
 
