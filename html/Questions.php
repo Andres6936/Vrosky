@@ -100,49 +100,49 @@ $var->showNavigation($links);
         <h3 class="h3 text-center">Potential market growth</h3>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Projected increase in the number of consumers</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Projected increase in needs.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Increased consumer acceptance</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Product novelty and design protection</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Economic trends (favorable to increased consumption).</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-4" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Social and political trends (favourable to the increase of consumption).</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Competitive advantages.</h5>
             <p class="card-text">Text Here</p>
