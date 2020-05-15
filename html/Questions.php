@@ -33,6 +33,8 @@ $var->showNavigation($links);
 ?>
 
 <section class="row pt-sm-5">
+
+    <!-- First Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
         <h3 class="h3 text-center">Current Market</h3>
     </div>
@@ -93,6 +95,7 @@ $var->showNavigation($links);
         </div>
     </div>
 
+    <!-- Second Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
         <h3 class="h3 text-center">Potential market growth</h3>
     </div>
@@ -146,6 +149,7 @@ $var->showNavigation($links);
         </div>
     </div>
 
+    <!-- Third Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
         <h3 class="h3 text-center">Costs</h3>
     </div>
@@ -199,6 +203,7 @@ $var->showNavigation($links);
         </div>
     </div>
 
+    <!-- Fourth Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
         <h3 class="h3 text-center">Risks</h3>
     </div>
