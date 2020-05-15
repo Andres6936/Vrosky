@@ -208,91 +208,91 @@ $var->showNavigation($links);
         <h3 class="h3 text-center">Risks</h3>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Market stability in economic cycles</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Technological risks.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Import competition.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Size and power of the competition</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Quality and reliability risks (untested design)</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Ease of demand forecasting</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Value of initial investments.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Vulnerability of inputs (supply and price)</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Legislation and controls.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Time required to make a profit.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Inventory needs.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Seasonal demand.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2 offset-sm-5" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Design exclusivity.</h5>
             <p class="card-text">Text Here</p>
