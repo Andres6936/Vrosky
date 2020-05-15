@@ -154,49 +154,49 @@ $var->showNavigation($links);
         <h3 class="h3 text-center">Costs</h3>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Raw material costs</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Cost of labor.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Distribution costs (e.g. transport, handling, etc ...)</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Cost of sales.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2 offset-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Efficiency of production processes.</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-4" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Costs of after-sales services, guarantees and consumer complaints</h5>
             <p class="card-text">Text Here</p>
         </div>
     </div>
 
-    <div class="card" style="width: 18rem;">
+    <div class="card col-sm-2" style="width: 18rem;">
         <div class="card-body">
             <h5 class="card-tittle">Patents and licenses.</h5>
             <p class="card-text">Text Here</p>
