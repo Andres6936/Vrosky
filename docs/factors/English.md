@@ -2,14 +2,14 @@
 
 | Factor | Maximum Rating Condition (10 Points) | Minimum Rating Condition (0 Points) |
 | --- | --- | --- | 
-| 1. Size of the market (Number of potential consumers) | | |
-| 2. Relationship of the good with the need. | | |
-| 3. Strength and influence of the competition | | |
-| 4. Quality - price ratio compared to goods or services of the competition. | | |
-| 5. Needs for after-sales services or care (e.g. maintenance). | | |
-| 6. Availability of sales - distribution systems | | |
-| 7. Effort demanded by sales. | | |
-| 8. Possibilities of exploitation | | |
+| 1. Size of the market (Number of potential consumers) | The good or service has multiple uses The expected consumers are many. | Consumers are restricted to a special class and are few in number. |
+| 2. Relationship of the good to the need. | It is always needed. It satisfies a basic need. | Luxury product, not necessary. |
+| 3. Strength and influence of the competition | Relatively little competition. Unexplored field. | Market dominated by much well-established competition. |
+| 4. Quality - price ratio compared to goods or services of the competition. | Goods or services with special characteristics. Much better than competing products. | True imitation of existing products on the market. |
+| 5. Needs for after-sales services or care (e.g. maintenance). | easily served good or service. Service system available or easily contracted. | Unknown service needs. No service facilities available. |
+| 6. Availability of sales - distribution systems | Easy to market with existing distributors. | Requires special sales - distribution system. |
+| 7. Effort demanded by sales. | The good or service sells itself. | Each sale demands great effort. |
+| 8. Export possibilities. | Can be exported competitively. Large international market. | Only national market. |
 
 # Potential market growth
 

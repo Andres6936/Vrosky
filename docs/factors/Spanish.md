@@ -2,14 +2,14 @@
 
 | Factor | Condición Máxima Calificación (10 Puntos) | Condición de Mínima Calificación (0 Puntos) |
 | --- | --- | --- | 
-| 1. Tamaño del mercado (Número de consumidores potenciales). | | |
-| 2. Relación del bien con la necesidad. | | |
-| 3. Fortaleza e influencia de la competencia. | | |
-| 4. Relación calidad - precio comparada con bienes o servicios de la compentencia. | | |
-| 5. Necesidades de servicios o atención posventas (manteniminto, por ejemplo). | | |
-| 6. Disponibilidad de sistemas de ventas - distribución. | | |
-| 7. Esfuerzo que exigen las ventas. | | |
-| 8. Posibilidades de explotación. | | |
+| 1. Tamaño del mercado (Número de consumidores potenciales). | El bien o servicio tiene múltiples usos. Los consumidores esperados son muchos. | Los consumidores se restringen a una clase especial y son pocos en número. |
+| 2. Relación del bien con la necesidad. | Siempre se necesita. Satisface una una necesidad básica. | Producto de lujo, no es necesario. |
+| 3. Fortaleza e influencia de la competencia. | Competencia relativamente poca. Campo poco explorado. | Mercado dominado por mucha comptetencia bien establecida. |
+| 4. Relación calidad - precio comparada con bienes o servicios de la compentencia. | Bien o servicio con caracteristicas especiales. Mucho mejor que los productos de la competencia. | Verdadera imitación de productos existentes en el mercado. |
+| 5. Necesidades de servicios o atención posventas (manteniminto, por ejemplo). | Bien o servicio fácilmente servido. Sistema de servicio disponible o fácilmente contratable. | Necesidades de servicios desconocidas. No se dispone de facilidades de servicio. |
+| 6. Disponibilidad de sistemas de ventas - distribución. | De fácil mercado con distribuidores existentes. | Requiere sistema especial de ventas - distribucción. |
+| 7. Esfuerzo que exigen las ventas. | El bien o servicio se vende solo. | Cada venta exige grandes esfuerzos. |
+| 8. Posibilidades de exportación. | Se puede exportar comptetitivamente. Mercado internacional grande. | Únicamente mercado nacional. |
 
 # Crecimiento Potencial del Mercado
 
