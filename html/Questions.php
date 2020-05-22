@@ -44,10 +44,12 @@ $var->showNavigation($links);
             <div class="card-header">
                 <h5 class="text-center">Size of the market (Number of potential consumers)</h5>
             </div>
-            <div class="card-body">
-                <p class="card-text text-primary">The good or service has multiple uses The expected consumers are
+            <div class="card-body bg-primary">
+                <p class="card-text text-light">The good or service has multiple uses The expected consumers are
                     many.</p>
-                <p class="card-text text-danger">Consumers are restricted to a special class and are few in number.</p>
+            </div>
+            <div class="card-body bg-danger">
+                <p class="card-text text-light">Consumers are restricted to a special class and are few in number.</p>
             </div>
         </div>
 
