@@ -41,8 +41,10 @@ $var->showNavigation($links);
         </div>
 
         <div class="card">
+            <div class="card-header">
+                <h5 class="text-center">Size of the market (Number of potential consumers)</h5>
+            </div>
             <div class="card-body">
-                <h5 class="card-tittle">Size of the market (Number of potential consumers)</h5>
                 <p class="card-text text-primary">The good or service has multiple uses The expected consumers are
                     many.</p>
                 <p class="card-text text-danger">Consumers are restricted to a special class and are few in number.</p>
@@ -50,24 +52,30 @@ $var->showNavigation($links);
         </div>
 
         <div class="card">
+            <div class="card-header">
+                <h5 class="text-center">Relationship of the good with the need.</h5>
+            </div>
             <div class="card-body">
-                <h5 class="card-tittle">Relationship of the good with the need.</h5>
                 <p class="card-text text-primary">It is always needed. It satisfies a basic need.</p>
                 <p class="card-text text-danger">Luxury product, not necessary.</p>
             </div>
         </div>
 
         <div class="card">
+            <div class="card-header">
+                <h5 class="text-center">Strength and influence of the competition</h5>
+            </div>
             <div class="card-body">
-                <h5 class="card-tittle">Strength and influence of the competition</h5>
                 <p class="card-text text-primary">Relatively little competition. Unexplored field.</p>
                 <p class="card-text text-danger">Market dominated by much well-established competition.</p>
             </div>
         </div>
 
         <div class="card">
+            <div class="card-header">
+                <h5 class="text-center">Quality - price ratio compared to goods or services of the competition.</h5>
+            </div>
             <div class="card-body">
-                <h5 class="card-tittle">Quality - price ratio compared to goods or services of the competition.</h5>
                 <p class="card-text text-primary">Goods or services with special characteristics. Much better than
                     competing
                     products.</p>
