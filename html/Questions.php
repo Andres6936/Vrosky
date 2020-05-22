@@ -122,64 +122,69 @@ $var->showNavigation($links);
             </div>
         </div>
     </div>
+
+    <div class="card-deck">
+        <!-- Second Header -->
+        <div class="col-12 mx-auto w-75 h-100 p-3">
+            <h3 class="h3 text-center">Potential market growth</h3>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-tittle">Projected increase in the number of consumers</h5>
+                <p class="card-text">Text Here</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <div class="card-body">
+                <h5 class="card-tittle">Projected increase in needs.</h5>
+                <p class="card-text">Text Here</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <div class="card-body">
+                <h5 class="card-tittle">Increased consumer acceptance</h5>
+                <p class="card-text">Text Here</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <div class="card-body">
+                <h5 class="card-tittle">Product novelty and design protection</h5>
+                <p class="card-text">Text Here</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-deck pt-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-tittle">Economic trends (favorable to increased consumption).</h5>
+                <p class="card-text">Text Here</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-tittle">Social and political trends (favourable to the increase of consumption).</h5>
+                <p class="card-text">Text Here</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <div class="card-body">
+                <h5 class="card-tittle">Competitive advantages.</h5>
+                <p class="card-text">Text Here</p>
+            </div>
+        </div>
+    </div>
+
 </div>
 
 <section class="row pt-sm-5">
 
-
-    <!-- Second Header -->
-    <div class="col-12 mx-auto w-75 h-100 p-3">
-        <h3 class="h3 text-center">Potential market growth</h3>
-    </div>
-
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Projected increase in the number of consumers</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Projected increase in needs.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Increased consumer acceptance</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Product novelty and design protection</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Economic trends (favorable to increased consumption).</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-4">
-        <div class="card-body">
-            <h5 class="card-tittle">Social and political trends (favourable to the increase of consumption).</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Competitive advantages.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
 
     <!-- Third Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
