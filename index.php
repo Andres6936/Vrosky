@@ -61,7 +61,7 @@ $var->showNavigation($links);
             objective in itself. It is a <em>means</em> of achieving the objectives and
             goals that served as the basis for the formulation of the development
             plan and the sectoral programmes.</p>
-        <a class="btn btn-outline-secondary" href="html/Questions.php">Check it out</a>
+        <a class="btn btn-outline-secondary btn-warning" href="html/Questions.php">Check it out</a>
     </div>
 </div>
 
