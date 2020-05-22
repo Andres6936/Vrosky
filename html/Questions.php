@@ -40,30 +40,23 @@ $var->showNavigation($links);
             <h3 class="h3 text-center">Current Market</h3>
         </div>
 
-        <div class="card">
-            <div class="card-header">
-                <h5>Size of the market (Number of potential consumers)</h5>
-            </div>
-            <div class="card-body bg-primary">
-                <p class="card-text text-light font-weight-bold">The good or service has multiple uses The expected
-                    consumers are
-                    many.</p>
-            </div>
-            <div class="card-body bg-danger">
-                <p class="card-text text-light font-weight-bold">Consumers are restricted to a special class and are few
-                    in number.</p>
-            </div>
-        </div>
+        <?php
+        $text = array(
+            "TITTLE" => "Size of the market (Number of potential consumers)",
+            "GOOD" => "The good or service has multiple uses The expected consumers are many.",
+            "BAD" => "Consumers are restricted to a special class and are few in number.",
+        );
 
-        <div class="card">
-            <div class="card-header">
-                <h5>Relationship of the good with the need.</h5>
-            </div>
-            <div class="card-body">
-                <p class="card-text text-primary">It is always needed. It satisfies a basic need.</p>
-                <p class="card-text text-danger">Luxury product, not necessary.</p>
-            </div>
-        </div>
+        $var->showQuestion($text);
+
+        $text = array(
+            "TITTLE" => "Relationship of the good with the need.",
+            "GOOD" => "It is always needed. It satisfies a basic need.",
+            "BAD" => "Luxury product, not necessary.",
+        );
+
+        $var->showQuestion($text);
+        ?>
 
         <div class="card">
             <div class="card-header">

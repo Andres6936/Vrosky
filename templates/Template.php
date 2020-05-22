@@ -1,6 +1,7 @@
 <?php
 
 include_once("Footer.php");
+include_once("Question.php");
 include_once("Bootstrap.php");
 include_once("Navigation.php");
 
@@ -28,5 +29,11 @@ final class Template
     {
         $var = new Navigation($_links);
         print $var->getNavigation();
+    }
+
+    public function showQuestion(array $_text)
+    {
+        $var = new Question();
+        print $var->getTemplate($_text);
     }
 }
