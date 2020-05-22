@@ -32,7 +32,7 @@ $var = new Template();
 $var->showNavigation($links);
 ?>
 
-<div class="container">
+<div class="container text-center">
 
     <div class="card-deck">
         <!-- First Header -->
@@ -42,20 +42,22 @@ $var->showNavigation($links);
 
         <div class="card">
             <div class="card-header">
-                <h5 class="text-center">Size of the market (Number of potential consumers)</h5>
+                <h5>Size of the market (Number of potential consumers)</h5>
             </div>
             <div class="card-body bg-primary">
-                <p class="card-text text-light">The good or service has multiple uses The expected consumers are
+                <p class="card-text text-light font-weight-bold">The good or service has multiple uses The expected
+                    consumers are
                     many.</p>
             </div>
             <div class="card-body bg-danger">
-                <p class="card-text text-light">Consumers are restricted to a special class and are few in number.</p>
+                <p class="card-text text-light font-weight-bold">Consumers are restricted to a special class and are few
+                    in number.</p>
             </div>
         </div>
 
         <div class="card">
             <div class="card-header">
-                <h5 class="text-center">Relationship of the good with the need.</h5>
+                <h5>Relationship of the good with the need.</h5>
             </div>
             <div class="card-body">
                 <p class="card-text text-primary">It is always needed. It satisfies a basic need.</p>
@@ -65,7 +67,7 @@ $var->showNavigation($links);
 
         <div class="card">
             <div class="card-header">
-                <h5 class="text-center">Strength and influence of the competition</h5>
+                <h5>Strength and influence of the competition</h5>
             </div>
             <div class="card-body">
                 <p class="card-text text-primary">Relatively little competition. Unexplored field.</p>
@@ -75,7 +77,7 @@ $var->showNavigation($links);
 
         <div class="card">
             <div class="card-header">
-                <h5 class="text-center">Quality - price ratio compared to goods or services of the competition.</h5>
+                <h5>Quality - price ratio compared to goods or services of the competition.</h5>
             </div>
             <div class="card-body">
                 <p class="card-text text-primary">Goods or services with special characteristics. Much better than
