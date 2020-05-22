@@ -1,0 +1,8 @@
+#main-content-index {
+    background-image: url('../img/TrianglifyBackground.svg');
+    background-position: center;
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+    /* Resize the background image to cover the entire container */
+    background-size: cover;
+}

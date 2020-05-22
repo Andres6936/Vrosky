@@ -8,6 +8,8 @@
 
     <title>Vrosky</title>
 
+    <link rel="stylesheet" href="css/Trianglify.css">
+
     <?php
     include_once("templates/Template.php");
 
@@ -50,7 +52,7 @@ $var = new Template();
 $var->showNavigation($links);
 ?>
 
-<div class="position-relative overflow-hidden text-center bg-light p-3 p-md-5 m-md-3">
+<div id="main-content-index" class="position-relative overflow-hidden text-center bg-light p-3 p-md-5 m-md-3">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
         <!-- Actually, the element h1 is break for html and the class text-center,
             for avoid this style is necessary apply nowrap in css -->
