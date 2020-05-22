@@ -32,78 +32,88 @@ $var = new Template();
 $var->showNavigation($links);
 ?>
 
+<div class="container">
+
+    <div class="card-deck">
+        <!-- First Header -->
+        <div class="col-12 mx-auto w-75 h-100 p-3">
+            <h3 class="h3 text-center">Current Market</h3>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-tittle">Size of the market (Number of potential consumers)</h5>
+                <p class="card-text text-primary">The good or service has multiple uses The expected consumers are
+                    many.</p>
+                <p class="card-text text-danger">Consumers are restricted to a special class and are few in number.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-tittle">Relationship of the good with the need.</h5>
+                <p class="card-text text-primary">It is always needed. It satisfies a basic need.</p>
+                <p class="card-text text-danger">Luxury product, not necessary.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-tittle">Strength and influence of the competition</h5>
+                <p class="card-text text-primary">Relatively little competition. Unexplored field.</p>
+                <p class="card-text text-danger">Market dominated by much well-established competition.</p>
+            </div>
+        </div>
+
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-tittle">Quality - price ratio compared to goods or services of the competition.</h5>
+                <p class="card-text text-primary">Goods or services with special characteristics. Much better than
+                    competing
+                    products.</p>
+                <p class="card-text text-danger">True imitation of existing products on the market.</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="card-deck pt-4">
+        <div class="card">
+            <div class="card-body">
+                <h5 class="card-tittle">Needs for after-sales services or care (e.g. maintenance).</h5>
+                <p class="card-text text-primary">easily served good or service. Service system available or easily
+                    contracted.</p>
+                <p class="card-text text-danger">Unknown service needs. No service facilities available.</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <div class="card-body">
+                <h5 class="card-tittle">Availability of sales - distribution systems</h5>
+                <p class="card-text text-primary">Easy to market with existing distributors.</p>
+                <p class="card-text text-danger">Requires special sales - distribution system.</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <div class="card-body">
+                <h5 class="card-tittle">Effort demanded by sales.</h5>
+                <p class="card-text text-primary">The good or service sells itself.</p>
+                <p class="card-text text-danger">Each sale demands great effort.</p>
+            </div>
+        </div>
+
+        <div class="card ">
+            <div class="card-body">
+                <h5 class="card-tittle">Possibilities of exploitation</h5>
+                <p class="card-text text-primary">Can be exported competitively. Large international market.</p>
+                <p class="card-text text-danger">Only national market.</p>
+            </div>
+        </div>
+    </div>
+</div>
+
 <section class="row pt-sm-5">
 
-    <!-- First Header -->
-    <div class="col-12 mx-auto w-75 h-100 p-3">
-        <h3 class="h3 text-center">Current Market</h3>
-    </div>
-
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Size of the market (Number of potential consumers)</h5>
-            <p class="card-text text-primary">The good or service has multiple uses The expected consumers are many.</p>
-            <p class="card-text text-danger">Consumers are restricted to a special class and are few in number.</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Relationship of the good with the need.</h5>
-            <p class="card-text text-primary">It is always needed. It satisfies a basic need.</p>
-            <p class="card-text text-danger">Luxury product, not necessary.</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Strength and influence of the competition</h5>
-            <p class="card-text text-primary">Relatively little competition. Unexplored field.</p>
-            <p class="card-text text-danger">Market dominated by much well-established competition.</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Quality - price ratio compared to goods or services of the competition.</h5>
-            <p class="card-text text-primary">Goods or services with special characteristics. Much better than competing
-                products.</p>
-            <p class="card-text text-danger">True imitation of existing products on the market.</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Needs for after-sales services or care (e.g. maintenance).</h5>
-            <p class="card-text text-primary">easily served good or service. Service system available or easily
-                contracted.</p>
-            <p class="card-text text-danger">Unknown service needs. No service facilities available.</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Availability of sales - distribution systems</h5>
-            <p class="card-text text-primary">Easy to market with existing distributors.</p>
-            <p class="card-text text-danger">Requires special sales - distribution system.</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Effort demanded by sales.</h5>
-            <p class="card-text text-primary">The good or service sells itself.</p>
-            <p class="card-text text-danger">Each sale demands great effort.</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Possibilities of exploitation</h5>
-            <p class="card-text text-primary">Can be exported competitively. Large international market.</p>
-            <p class="card-text text-danger">Only national market.</p>
-        </div>
-    </div>
 
     <!-- Second Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
