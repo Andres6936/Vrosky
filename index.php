@@ -52,11 +52,14 @@ $var->showNavigation($links);
 
 <div class="position-relative overflow-hidden text-center bg-light p-3 p-md-5 m-md-3">
     <div class="col-md-5 p-lg-5 mx-auto my-5">
-        <h1 class="display-4 font-weight-normal">Punny Headline</h1>
-        <p class="lead font-weight-normal">And an even wittier subheading to boot. Jumpstart your
-            marketing efforts with this example based on Apple’s
-            marketing pages.</p>
-        <a class="btn btn-outline-secondary" href="html/Questions.php">Coming Soon</a>
+        <!-- Actually, the element h1 is break for html and the class text-center,
+            for avoid this style is necessary apply nowrap in css -->
+        <h1 class="display-4 font-weight-normal" style="white-space: nowrap">Know your project</h1>
+        <p class="lead font-weight-normal">The <em>project</em> cannot be conceived as a
+            objective in itself. It is a <em>means</em> of achieving the objectives and
+            goals that served as the basis for the formulation of the development
+            plan and the sectoral programmes.</p>
+        <a class="btn btn-outline-secondary" href="html/Questions.php">Check it out</a>
     </div>
 </div>
 
@@ -108,44 +111,6 @@ $var->showNavigation($links);
     </div>
 </div>
 
-<!-- Principal Content -->
-<section class="container" id="posts" role="main">
-
-    <div id="carouselIndex" class="carousel slide" data-ride="carousel">
-
-        <!-- Button Prev -->
-        <a class="carousel-control-prev" role="button" data-slide="prev">
-            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        </a>
-
-        <!-- Indicators -->
-        <ol class="carousel-indicators">
-            <li data-target="#carouselIndex" data-slide-to="0" class="active"></li>
-            <li data-target="#carouselIndex" data-slide-to="1"></li>
-            <li data-target="#carouselIndex" data-slide-to="2"></li>
-        </ol>
-
-        <!-- Content -->
-        <div class="carousel-inner">
-            <div class="carousel-item active">
-                <img class="d-block w-100" src="img/DoingWrestling.jpg" alt="First Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/MasonryWorker.jpg" alt="First Slide">
-            </div>
-            <div class="carousel-item">
-                <img class="d-block w-100" src="img/StandingLectern.jpg" alt="First Slide">
-            </div>
-        </div>
-
-        <!-- Button Next -->
-        <a class="carousel-control-next" role="button" data-slide="next">
-            <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        </a>
-    </div>
-
-</section>
-
 <?php
 $var = new Template();
 
@@ -153,8 +118,6 @@ $var->showFooter();
 $var->showBodyBootstrap();
 ?>
 
-<!-- Script for controller the visualization of slider -->
-<script src="./js/Slider.js" type="text/javascript"></script>
 
 </body>
 </html>
