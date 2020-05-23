@@ -56,64 +56,60 @@ $var->showNavigation($links);
         );
 
         $var->showQuestion($text);
+
+        $text = array(
+            "TITTLE" => "Strength and influence of the competition",
+            "GOOD" => "Relatively little competition. Unexplored field.",
+            "BAD" => "Market dominated by much well-established competition.",
+        );
+
+        $var->showQuestion($text);
+
+        $text = array(
+            "TITTLE" => "Quality - price ratio compared to goods or services of the competition.",
+            "GOOD" => "Goods or services with special characteristics. Much better than competing products.",
+            "BAD" => "True imitation of existing products on the market.",
+        );
+
+        $var->showQuestion($text);
         ?>
-
-        <div class="card">
-            <div class="card-header">
-                <h5>Strength and influence of the competition</h5>
-            </div>
-            <div class="card-body">
-                <p class="card-text text-primary">Relatively little competition. Unexplored field.</p>
-                <p class="card-text text-danger">Market dominated by much well-established competition.</p>
-            </div>
-        </div>
-
-        <div class="card">
-            <div class="card-header">
-                <h5>Quality - price ratio compared to goods or services of the competition.</h5>
-            </div>
-            <div class="card-body">
-                <p class="card-text text-primary">Goods or services with special characteristics. Much better than
-                    competing
-                    products.</p>
-                <p class="card-text text-danger">True imitation of existing products on the market.</p>
-            </div>
-        </div>
     </div>
 
     <div class="card-deck pt-4">
-        <div class="card">
-            <div class="card-body">
-                <h5 class="card-tittle">Needs for after-sales services or care (e.g. maintenance).</h5>
-                <p class="card-text text-primary">easily served good or service. Service system available or easily
-                    contracted.</p>
-                <p class="card-text text-danger">Unknown service needs. No service facilities available.</p>
-            </div>
-        </div>
 
-        <div class="card ">
-            <div class="card-body">
-                <h5 class="card-tittle">Availability of sales - distribution systems</h5>
-                <p class="card-text text-primary">Easy to market with existing distributors.</p>
-                <p class="card-text text-danger">Requires special sales - distribution system.</p>
-            </div>
-        </div>
+        <?php
+        $text = array(
+            "TITTLE" => "Needs for after-sales services or care (e.g. maintenance).",
+            "GOOD" => "easily served good or service. Service system available or easily contracted.",
+            "BAD" => "Unknown service needs. No service facilities available.",
+        );
 
-        <div class="card ">
-            <div class="card-body">
-                <h5 class="card-tittle">Effort demanded by sales.</h5>
-                <p class="card-text text-primary">The good or service sells itself.</p>
-                <p class="card-text text-danger">Each sale demands great effort.</p>
-            </div>
-        </div>
+        $var->showQuestion($text);
 
-        <div class="card ">
-            <div class="card-body">
-                <h5 class="card-tittle">Possibilities of exploitation</h5>
-                <p class="card-text text-primary">Can be exported competitively. Large international market.</p>
-                <p class="card-text text-danger">Only national market.</p>
-            </div>
-        </div>
+        $text = array(
+            "TITTLE" => "Availability of sales - distribution systems",
+            "GOOD" => "Easy to market with existing distributors.",
+            "BAD" => "Requires special sales - distribution system.",
+        );
+
+        $var->showQuestion($text);
+
+        $text = array(
+            "TITTLE" => "Effort demanded by sales.",
+            "GOOD" => "The good or service sells itself.",
+            "BAD" => "Each sale demands great effort.",
+        );
+
+        $var->showQuestion($text);
+
+        $text = array(
+            "TITTLE" => "Possibilities of exploitation",
+            "GOOD" => "Can be exported competitively. Large international market.",
+            "BAD" => "Only national market.",
+        );
+
+        $var->showQuestion($text);
+        ?>
     </div>
 
     <div class="card-deck">
