@@ -48,22 +48,26 @@ $var->showNavigation($links);
                 services.
             </p>
         </article>
-        <h1 class="py-5">Control how data is used across Google</h1>
+        <h1 class="col-12 py-5">Control how data is used across Google</h1>
+        <div class="col-4">
+            <h3>Take control of data saved in your Google Account</h3>
+            <p>You can find key info, privacy, and security
+                settings all in your Google Account. We have
+                created easy-to-use tools like Dashboard and
+                My Activity, which give you transparency over
+                data collected from your activity across
+                Google services. There are also powerful
+                privacy controls like Activity Controls
+                Ad Settings, which allow you to switch the
+                collection and use of data on or off to decide
+                how all of Google can work better for you.</p>
+        </div>
+        <div class="col-8">
+            <img class="img-fluid" src="../img/PrivacyControl.png" alt="Control">
+        </div>
     </div>
     <article class="posts">
 
-        <h5>Control how data is used across Google</h5>
-        <h6>Take control of data saved in your Google Account</h6>
-        <p>You can find key info, privacy, and security
-            settings all in your Google Account. We have
-            created easy-to-use tools like Dashboard and
-            My Activity, which give you transparency over
-            data collected from your activity across
-            Google services. There are also powerful
-            privacy controls like Activity Controls
-            Ad Settings, which allow you to switch the
-            collection and use of data on or off to decide
-            how all of Google can work better for you.</p>
         <h6>Choose the privacy settings that are right for you
             with your Privacy Checkup</h6>
         <p>In just a few minutes, you can manage the types
