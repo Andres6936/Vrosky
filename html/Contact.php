@@ -47,29 +47,25 @@ $var->showNavigation($links);
                 <button type="submit" class="btn btn-primary btn-block">Join now!</button>
             </div>
         </form>
+    </section>
 
-        <form class="form-horizontal offset-sm-2 col-sm-8 py-5">
+    <section class="row">
+        <form class="form-horizontal col-12 py-5">
             <div class="form-group">
-                <label class="col-sm-2 control-label" for="contact-name">Name</label>
-                <div class="col-sm-10">
-                    <input class="form-control" type="text" id="contact-name" placeholder="Full name">
-                </div>
+                <label class="control-label" for="contact-name">Name</label>
+                <input class="form-control" type="text" id="contact-name" placeholder="Full name">
             </div>
             <div class="form-group">
-                <label class="col-sm-2 control-label" for="contact-email">Email</label>
-                <div class="col-sm-10">
-                    <input class="form-control" type="text" id="contact-email" placeholder="Contact email">
-                </div>
+                <label class="control-label" for="contact-email">Email</label>
+                <input class="form-control" type="text" id="contact-email" placeholder="Contact email">
             </div>
             <div class="form-group">
                 <label class="col-sm-2 control-label" for="contact-message">Message</label>
-                <div class="col-sm-10">
-                        <textarea id="contact-message" class="form-control" rows="3"
-                                  placeholder="Type your message"></textarea>
-                </div>
+                <textarea id="contact-message" class="form-control" rows="3"
+                          placeholder="Type your message"></textarea>
             </div>
             <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
+                <div class="col-sm-offset-1 col-sm-10">
                     <label class="checkbox">
                         <input type="checkbox" value="">
                         I want to subscribe to receive updates from the company.
@@ -77,9 +73,7 @@ $var->showNavigation($links);
                 </div>
             </div>
             <div class="form-group">
-                <div class="col-sm-offset-2 col-sm-10">
-                    <button class="btn btn-success btn-lg" type="submit">Submit</button>
-                </div>
+                <button class="btn btn-success btn-lg" type="submit">Submit</button>
             </div>
         </form>
     </section>
