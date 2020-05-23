@@ -35,20 +35,16 @@ $var->showNavigation($links);
     <section id="newsletter" class="row">
         <h4 class="col-sm-12 py-5 text-center">Stay connected with us. Join the newsletter to receive fresh info.</h4>
         <form class="form-inline offset-sm-3 col-sm-6" method="POST">
-            <div class="form-group">
+            <div class="form-group col-sm-4 col-xs-12">
                 <label for="newsletter-name"></label>
-                <div>
-                    <input id="newsletter-name" class="form-control" placeholder="You name">
-                </div>
+                <input id="newsletter-name" class="form-control" placeholder="You name">
             </div>
-            <div class="form-group">
+            <div class="form-group col-sm-4 col-xs-12">
                 <label for="newsletter-email"></label>
-                <div>
-                    <input id="newsletter-email" class="form-control" placeholder="Your email">
-                </div>
+                <input id="newsletter-email" class="form-control" placeholder="Your email">
             </div>
-            <div>
-                <button type="submit" class="btn btn-primary">Join now!</button>
+            <div class="col-sm-4 col-xs-12">
+                <button type="submit" class="btn btn-primary btn-block">Join now!</button>
             </div>
         </form>
 
