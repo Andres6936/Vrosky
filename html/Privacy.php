@@ -35,8 +35,8 @@ $var->showNavigation($links);
 <!-- Principal Content -->
 <section class="container" id="posts" role="main">
     <div class="row py-5">
-        <h1 class="col-10 offset-1 text-center">You’re in control</h1>
-        <article class="col-8 offset-2 pt-5">
+        <h1 class="col-sm-10 offset-sm-1 text-center">You’re in control</h1>
+        <article class="col-sm-8 offset-sm-2 pt-5">
             <p class="text-center text-muted">
                 We know that one size doesn’t fit all
                 when it comes to privacy, so we build
@@ -48,8 +48,8 @@ $var->showNavigation($links);
                 services.
             </p>
         </article>
-        <h1 class="col-12 py-5">Control how data is used across Vrosky</h1>
-        <div class="col-4">
+        <h1 class="col-sm-12 py-5">Control how data is used across Vrosky</h1>
+        <div class="col-sm-4">
             <h3>Take control of data saved in your Vrosky Account</h3>
             <p class="text-muted">You can find key info, privacy, and security
                 settings all in your Vrosky Account. We have
@@ -62,10 +62,10 @@ $var->showNavigation($links);
                 collection and use of data on or off to decide
                 how all of Vrosky can work better for you.</p>
         </div>
-        <div class="col-8 pb-5">
+        <div class="col-sm-8 pb-5">
             <img class="img-fluid" src="../img/PrivacyControl.png" alt="Control">
         </div>
-        <div class="col-4">
+        <div class="col-sm-4">
             <h3>Choose the privacy settings that are right for you
                 with your Privacy Checkup</h3>
             <p class="text-muted">In just a few minutes, you can manage the types
@@ -76,7 +76,7 @@ $var->showNavigation($links);
                 even choose to have regular reminders sent to
                 help keep your current settings in mind.</p>
         </div>
-        <div class="col-8">
+        <div class="col-sm-8">
             <img class="img-fluid" src="../img/PrivacyCheck.png" alt="Control">
         </div>
     </div>
