@@ -32,9 +32,9 @@ $var->showNavigation($links);
 ?>
 
 <div class="container">
-    <section id="newsletter" class="text-center">
-        <h4>Stay connected with us. Join the newsletter to receive fresh info.</h4>
-        <form class="form-inline" method="POST">
+    <section id="newsletter" class="row">
+        <h4 class="col-sm-12 py-5 text-center">Stay connected with us. Join the newsletter to receive fresh info.</h4>
+        <form class="form-inline offset-sm-3 col-sm-6" method="POST">
             <div class="form-group">
                 <label for="newsletter-name"></label>
                 <div>
@@ -51,46 +51,42 @@ $var->showNavigation($links);
                 <button type="submit" class="btn btn-primary">Join now!</button>
             </div>
         </form>
-    </section>
 
-    <div id="contact" class="row">
-        <div class="col-sm-offset-2 col-sm-8">
-            <form class="form-horizontal">
-                <div class="form-group">
-                    <label class="col-sm-2 control-label" for="contact-name">Name</label>
-                    <div class="col-sm-10">
-                        <input class="form-control" type="text" id="contact-name" placeholder="Full name">
-                    </div>
+        <form class="form-horizontal offset-sm-2 col-sm-8 py-5">
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="contact-name">Name</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" id="contact-name" placeholder="Full name">
                 </div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label" for="contact-email">Email</label>
-                    <div class="col-sm-10">
-                        <input class="form-control" type="text" id="contact-email" placeholder="Contact email">
-                    </div>
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="contact-email">Email</label>
+                <div class="col-sm-10">
+                    <input class="form-control" type="text" id="contact-email" placeholder="Contact email">
                 </div>
-                <div class="form-group">
-                    <label class="col-sm-2 control-label" for="contact-message">Message</label>
-                    <div class="col-sm-10">
+            </div>
+            <div class="form-group">
+                <label class="col-sm-2 control-label" for="contact-message">Message</label>
+                <div class="col-sm-10">
                         <textarea id="contact-message" class="form-control" rows="3"
                                   placeholder="Type your message"></textarea>
-                    </div>
                 </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <label class="checkbox">
-                            <input type="checkbox" value="">
-                            I want to subscribe to receive updates from the company.
-                        </label>
-                    </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <label class="checkbox">
+                        <input type="checkbox" value="">
+                        I want to subscribe to receive updates from the company.
+                    </label>
                 </div>
-                <div class="form-group">
-                    <div class="col-sm-offset-2 col-sm-10">
-                        <button class="btn btn-success btn-lg" type="submit">Submit</button>
-                    </div>
+            </div>
+            <div class="form-group">
+                <div class="col-sm-offset-2 col-sm-10">
+                    <button class="btn btn-success btn-lg" type="submit">Submit</button>
                 </div>
-            </form>
-        </div>
-    </div>
+            </div>
+        </form>
+    </section>
 </div>
 
 <?php
