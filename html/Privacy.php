@@ -41,26 +41,26 @@ $var->showNavigation($links);
                 We know that one size doesn’t fit all
                 when it comes to privacy, so we build
                 powerful, easy-to-use privacy tools
-                into your Google Account. They give
+                into your Vrosky Account. They give
                 you control over the privacy settings
                 that are right for you, and what types
                 of data we collect and use across our
                 services.
             </p>
         </article>
-        <h1 class="col-12 py-5">Control how data is used across Google</h1>
+        <h1 class="col-12 py-5">Control how data is used across Vrosky</h1>
         <div class="col-4">
-            <h3>Take control of data saved in your Google Account</h3>
+            <h3>Take control of data saved in your Vrosky Account</h3>
             <p class="text-muted">You can find key info, privacy, and security
-                settings all in your Google Account. We have
+                settings all in your Vrosky Account. We have
                 created easy-to-use tools like Dashboard and
                 My Activity, which give you transparency over
                 data collected from your activity across
-                Google services. There are also powerful
+                Vrosky services. There are also powerful
                 privacy controls like Activity Controls
                 Ad Settings, which allow you to switch the
                 collection and use of data on or off to decide
-                how all of Google can work better for you.</p>
+                how all of Vrosky can work better for you.</p>
         </div>
         <div class="col-8 pb-5">
             <img class="img-fluid" src="../img/PrivacyControl.png" alt="Control">
