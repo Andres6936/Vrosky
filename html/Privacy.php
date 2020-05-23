@@ -62,22 +62,24 @@ $var->showNavigation($links);
                 collection and use of data on or off to decide
                 how all of Google can work better for you.</p>
         </div>
-        <div class="col-8">
+        <div class="col-8 pb-5">
             <img class="img-fluid" src="../img/PrivacyControl.png" alt="Control">
         </div>
+        <div class="col-4">
+            <h3>Choose the privacy settings that are right for you
+                with your Privacy Checkup</h3>
+            <p>In just a few minutes, you can manage the types
+                of data we collect, update what you share with
+                friends or make public, and adjust the types
+                of ads you would like us to show you. You can
+                change these settings as often as you want and
+                even choose to have regular reminders sent to
+                help keep your current settings in mind.</p>
+        </div>
+        <div class="col-8">
+            <img class="img-fluid" src="../img/PrivacyCheck.png" alt="Control">
+        </div>
     </div>
-    <article class="posts">
-
-        <h6>Choose the privacy settings that are right for you
-            with your Privacy Checkup</h6>
-        <p>In just a few minutes, you can manage the types
-            of data we collect, update what you share with
-            friends or make public, and adjust the types
-            of ads you would like us to show you. You can
-            change these settings as often as you want and
-            even choose to have regular reminders sent to
-            help keep your current settings in mind.</p>
-    </article>
 
 </section>
 
