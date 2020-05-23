@@ -34,17 +34,47 @@ $var->showNavigation($links);
 
 <!-- Principal Content -->
 <section class="container" id="posts" role="main">
-    <header>
-        <h4></h4>
-    </header>
+    <div class="row py-5">
+        <h1 class="col-10 offset-1 text-center">You’re in control</h1>
+        <article class="col-8 offset-2 pt-5">
+            <p class="text-center">
+                We know that one size doesn’t fit all
+                when it comes to privacy, so we build
+                powerful, easy-to-use privacy tools
+                into your Google Account. They give
+                you control over the privacy settings
+                that are right for you, and what types
+                of data we collect and use across our
+                services.
+            </p>
+        </article>
+        <h1 class="py-5">Control how data is used across Google</h1>
+    </div>
     <article class="posts">
-        <aside>
-        </aside>
 
+        <h5>Control how data is used across Google</h5>
+        <h6>Take control of data saved in your Google Account</h6>
+        <p>You can find key info, privacy, and security
+            settings all in your Google Account. We have
+            created easy-to-use tools like Dashboard and
+            My Activity, which give you transparency over
+            data collected from your activity across
+            Google services. There are also powerful
+            privacy controls like Activity Controls
+            Ad Settings, which allow you to switch the
+            collection and use of data on or off to decide
+            how all of Google can work better for you.</p>
+        <h6>Choose the privacy settings that are right for you
+            with your Privacy Checkup</h6>
+        <p>In just a few minutes, you can manage the types
+            of data we collect, update what you share with
+            friends or make public, and adjust the types
+            of ads you would like us to show you. You can
+            change these settings as often as you want and
+            even choose to have regular reminders sent to
+            help keep your current settings in mind.</p>
     </article>
-    <footer>
 
-    </footer>
 </section>
 
 <?php
