@@ -50,7 +50,7 @@ $var->showNavigation($links);
     </section>
 
     <section class="row">
-        <form class="form-horizontal col-12 py-5">
+        <form class="form-horizontal col-sm-6 offset-sm-3 py-5">
             <div class="form-group">
                 <label class="control-label" for="contact-name">Name</label>
                 <input class="form-control" type="text" id="contact-name" placeholder="Full name">
