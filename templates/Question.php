@@ -10,11 +10,13 @@ final class Question
                 <div class="card-header">
                     <h5>' . $_text["TITTLE"] . '</h5>
                 </div>
-                <div class="card-body bg-primary">
-                    <p class="card-text text-light font-weight-bold">' . $_text["GOOD"] . '</p>
+                <div class="card-body">
+                    <p class="card-text font-weight-bold">' . $_text["GOOD"] . '</p>
+                    <a class="btn btn-primary text-light font-weight-bold">My Case</a>
                 </div>
-                <div class="card-body bg-danger">
-                    <p class="card-text text-light font-weight-bold">' . $_text["BAD"] . '</p>
+                <div class="card-body">
+                    <p class="card-text font-weight-bold">' . $_text["BAD"] . '</p>
+                    <a class="btn btn-danger text-light font-weight-bold">My Case</a>
                 </div>
             </div>';
     }

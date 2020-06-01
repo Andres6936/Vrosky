@@ -6,6 +6,9 @@
 
     <title>Questions</title>
 
+    <link rel="stylesheet" href="../css/Trianglify.css">
+    <script type='text/javascript' src='../js/knockout-3.5.1.js'></script>
+
     <?php
     require_once '../templates/Template.php';
 
@@ -33,6 +36,24 @@ $var->showNavigation($links);
 ?>
 
 <div class="container text-center">
+
+    <div class="card-deck col-sm-6 mx-auto">
+        <div class="card">
+            <div class="card-header">
+                <h5>Size of the market (Number of potential consumers)</h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text font-weight-bold">The good or service has multiple uses The expected consumers are
+                    many.</p>
+                <a class="btn btn-primary text-light font-weight-bold">My Case</a>
+            </div>
+            <div class="card-body">
+                <p class="card-text font-weight-bold">Consumers are restricted to a special class and are few in
+                    number.</p>
+                <a class="btn btn-danger text-light font-weight-bold">My Case</a>
+            </div>
+        </div>
+    </div>
 
     <div class="card-deck">
         <!-- First Header -->
