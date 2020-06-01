@@ -7,7 +7,6 @@
     <title>Questions</title>
 
     <link rel="stylesheet" href="../css/Trianglify.css">
-    <script type='text/javascript' src='../js/knockout-3.5.1.js'></script>
 
     <?php
     require_once '../templates/Template.php';
@@ -48,8 +47,7 @@ $var->showNavigation($links);
                 <a class="btn btn-primary text-light font-weight-bold">My Case</a>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold">Consumers are restricted to a special class and are few in
-                    number.</p>
+                <p class="card-text font-weight-bold" data-bind="text: textBad"></p>
                 <a class="btn btn-danger text-light font-weight-bold">My Case</a>
             </div>
         </div>
@@ -354,6 +352,16 @@ $var->showFooter();
 $var->showBodyBootstrap();
 ?>
 
+<script type='text/javascript' src='../js/knockout-3.5.1.js'></script>
+
+<script>
+    let text = {
+        textBad: 'Consumers are restricted to a special class and are few in number.',
+    };
+
+    ko.applyBindings(text);
+
+</script>
 
 </body>
 </html>
