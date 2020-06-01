@@ -39,15 +39,14 @@ $var->showNavigation($links);
     <div class="card-deck col-sm-6 mx-auto">
         <div class="card">
             <div class="card-header">
-                <h5>Size of the market (Number of potential consumers)</h5>
+                <h5 data-bind="text: questions[0].title"></h5>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold">The good or service has multiple uses The expected consumers are
-                    many.</p>
+                <p class="card-text font-weight-bold" data-bind="text: questions[0].good"></p>
                 <a class="btn btn-primary text-light font-weight-bold">My Case</a>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: textBad"></p>
+                <p class="card-text font-weight-bold" data-bind="text: questions[0].bad"></p>
                 <a class="btn btn-danger text-light font-weight-bold">My Case</a>
             </div>
         </div>
@@ -353,13 +352,11 @@ $var->showBodyBootstrap();
 ?>
 
 <script type='text/javascript' src='../js/knockout-3.5.1.js'></script>
+<script type="text/javascript" src="../js/QuestionCurrentMarket.js"></script>
 
 <script>
-    let text = {
-        textBad: 'Consumers are restricted to a special class and are few in number.',
-    };
 
-    ko.applyBindings(text);
+    ko.applyBindings(questionCurrentMarket);
 
 </script>
 
