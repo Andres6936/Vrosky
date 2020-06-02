@@ -259,6 +259,16 @@ $var->showBodyBootstrap();
             title: ko.observable(costs[0].title),
             good: ko.observable(costs[0].good),
             bad: ko.observable(costs[0].bad),
+        },
+        actQuestMarketGrowth: {
+            title: ko.observable(marketGrowth[0].title),
+            good: ko.observable(marketGrowth[0].good),
+            bad: ko.observable(marketGrowth[0].bad),
+        },
+        actQuestRisks: {
+            title: ko.observable(risks[0].title),
+            good: ko.observable(risks[0].good),
+            bad: ko.observable(risks[0].bad),
         }
     }
 
