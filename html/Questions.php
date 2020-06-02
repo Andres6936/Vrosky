@@ -44,14 +44,14 @@ $var->showNavigation($links);
     <div class="card-deck col-sm-6 mx-auto p-5">
         <div class="card">
             <div class="card-header">
-                <h5 data-bind="text: actualQuestionCurrMarket.title"></h5>
+                <h5 data-bind="text: questions.actQuestCurrMarket.title"></h5>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: actualQuestionCurrMarket.good"></p>
+                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCurrMarket.good"></p>
                 <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: actualQuestionCurrMarket.bad"></p>
+                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCurrMarket.bad"></p>
                 <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
             </div>
         </div>
@@ -65,14 +65,14 @@ $var->showNavigation($links);
     <div class="card-deck col-sm-6 mx-auto p-5">
         <div class="card">
             <div class="card-header">
-                <h5 data-bind="text: actQuestCosts.title"></h5>
+                <h5 data-bind="text: questions.actQuestCosts.title"></h5>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: actQuestCosts.good"></p>
+                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCosts.good"></p>
                 <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: actQuestCosts.bad"></p>
+                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCosts.bad"></p>
                 <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
             </div>
         </div>
@@ -249,10 +249,17 @@ $var->showBodyBootstrap();
 
 <script>
 
-    let actualQuestionCurrMarket = {
-        title: ko.observable(currentMarket.questions[0].title),
-        good: ko.observable(currentMarket.questions[0].good),
-        bad: ko.observable(currentMarket.questions[0].bad),
+    let questions = {
+        actQuestCurrMarket: {
+            title: ko.observable(currentMarket.questions[0].title),
+            good: ko.observable(currentMarket.questions[0].good),
+            bad: ko.observable(currentMarket.questions[0].bad),
+        },
+        actQuestCosts: {
+            title: ko.observable(costs[0].title),
+            good: ko.observable(costs[0].good),
+            bad: ko.observable(costs[0].bad),
+        }
     }
 
     let indexActQuestCurrMarket = 0;
@@ -260,19 +267,12 @@ $var->showBodyBootstrap();
     function nextQuestion() {
         indexActQuestCurrMarket += 1;
 
-        actualQuestionCurrMarket.title(currentMarket.questions[indexActQuestCurrMarket].title);
-        actualQuestionCurrMarket.good(currentMarket.questions[indexActQuestCurrMarket].good);
-        actualQuestionCurrMarket.bad(currentMarket.questions[indexActQuestCurrMarket].bad);
+        questions.actQuestCurrMarket.title(currentMarket.questions[indexActQuestCurrMarket].title);
+        questions.actQuestCurrMarket.good(currentMarket.questions[indexActQuestCurrMarket].good);
+        questions.actQuestCurrMarket.bad(currentMarket.questions[indexActQuestCurrMarket].bad);
     }
 
-    let actQuestCosts = {
-        title: ko.observable(costs[0].title),
-        good: ko.observable(costs[0].good),
-        bad: ko.observable(costs[0].bad),
-    }
-
-    ko.applyBindings(actQuestCosts);
-    ko.applyBindings(actualQuestionCurrMarket);
+    ko.applyBindings(questions);
 
 </script>
 
