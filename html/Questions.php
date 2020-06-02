@@ -44,14 +44,14 @@ $var->showNavigation($links);
     <div class="card-deck col-sm-6 mx-auto p-5">
         <div class="card">
             <div class="card-header">
-                <h5 data-bind="text: actualQuestion.title"></h5>
+                <h5 data-bind="text: actualQuestionCurrMarket.title"></h5>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: actualQuestion.good"></p>
+                <p class="card-text font-weight-bold" data-bind="text: actualQuestionCurrMarket.good"></p>
                 <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: actualQuestion.bad"></p>
+                <p class="card-text font-weight-bold" data-bind="text: actualQuestionCurrMarket.bad"></p>
                 <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
             </div>
         </div>
@@ -286,7 +286,7 @@ $var->showBodyBootstrap();
 
 <script>
 
-    let actualQuestion = {
+    let actualQuestionCurrMarket = {
         title: ko.observable(currentMarket.questions[0].title),
         good: ko.observable(currentMarket.questions[0].good),
         bad: ko.observable(currentMarket.questions[0].bad),
@@ -297,12 +297,12 @@ $var->showBodyBootstrap();
     function nextQuestion() {
         indexActualQuestion += 1;
 
-        actualQuestion.title(currentMarket.questions[indexActualQuestion].title);
-        actualQuestion.good(currentMarket.questions[indexActualQuestion].good);
-        actualQuestion.bad(currentMarket.questions[indexActualQuestion].bad);
+        actualQuestionCurrMarket.title(currentMarket.questions[indexActualQuestion].title);
+        actualQuestionCurrMarket.good(currentMarket.questions[indexActualQuestion].good);
+        actualQuestionCurrMarket.bad(currentMarket.questions[indexActualQuestion].bad);
     }
 
-    ko.applyBindings(actualQuestion);
+    ko.applyBindings(actualQuestionCurrMarket);
 
 </script>
 
