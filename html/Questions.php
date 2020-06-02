@@ -39,15 +39,15 @@ $var->showNavigation($links);
     <div class="card-deck col-sm-6 mx-auto">
         <div class="card">
             <div class="card-header">
-                <h5 data-bind="text: questions[0].title"></h5>
+                <h5 data-bind="text: actualQuestion.title"></h5>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: questions[0].good"></p>
-                <a class="btn btn-primary text-light font-weight-bold">My Case</a>
+                <p class="card-text font-weight-bold" data-bind="text: actualQuestion.good"></p>
+                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
             </div>
             <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: questions[0].bad"></p>
-                <a class="btn btn-danger text-light font-weight-bold">My Case</a>
+                <p class="card-text font-weight-bold" data-bind="text: actualQuestion.bad"></p>
+                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
             </div>
         </div>
     </div>
@@ -356,7 +356,17 @@ $var->showBodyBootstrap();
 
 <script>
 
-    ko.applyBindings(questionCurrentMarket);
+    let actualQuestion = {
+        title: ko.observable(questionCurrentMarket.questions[0].title),
+        good: ko.observable(questionCurrentMarket.questions[0].good),
+        bad: ko.observable(questionCurrentMarket.questions[0].bad),
+    }
+
+    function nextQuestion() {
+        console.log("New Question");
+    }
+
+    ko.applyBindings(actualQuestion);
 
 </script>
 
