@@ -1,4 +1,4 @@
-let questionCurrentMarket = {
+let currentMarket = {
     questions: [
         {
             title: 'Size of the market (Number of potential consumers)',

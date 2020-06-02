@@ -352,14 +352,14 @@ $var->showBodyBootstrap();
 ?>
 
 <script type='text/javascript' src='../js/knockout-3.5.1.js'></script>
-<script type="text/javascript" src="../js/QuestionCurrentMarket.js"></script>
+<script type="text/javascript" src="../js/CurrentMarket.js"></script>
 
 <script>
 
     let actualQuestion = {
-        title: ko.observable(questionCurrentMarket.questions[0].title),
-        good: ko.observable(questionCurrentMarket.questions[0].good),
-        bad: ko.observable(questionCurrentMarket.questions[0].bad),
+        title: ko.observable(currentMarket.questions[0].title),
+        good: ko.observable(currentMarket.questions[0].good),
+        bad: ko.observable(currentMarket.questions[0].bad),
     }
 
     function nextQuestion() {
