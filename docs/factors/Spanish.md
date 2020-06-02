@@ -18,8 +18,8 @@
 | 1. Incremento proyectado del número de consumidores. | Las tendencias indican una población consumidora en aumento. | Población consumidora en disminución. |
 | 2. Incremento proyectado de las necesidades. | Incremento proyectado en la demanda de productos asociados. | Demanda en disminución por productos asociados. |
 | 3. Incremento de la aceptación de los consumidores. | Es seguro que la demanda aumentará cuando los consumidores conozcan el producto. | No es posible tener muchas ventas. La aceptación de los consumidores tendrá un efecto mínimo sobre las ventas. |
-| 4. Novedad del producto y protección del diseño. |  | |
-| 5. Tendencias económicas (favorables para el incremento del consumo). | | |
+| 4. Novedad del producto y protección del diseño. | Producto nuevo. Se puede proteger con patentes. | Difícil de proteger. Se puede copiar con facilidad. |
+| 5. Tendencias económicas (favorables para el incremento del consumo). | Tendencias económicas proyectadas incrementarán demanda y/o valor. | Tendencias económicas proyectadas reducirán seriamente la demanda y/o afectarán negativamente los costos. |
 | 6. Tendencias sociales y políticas (favorables para el incremento del consumo). | Tendencias indican estabilidad y un incremento en la necesidad. | Indicadores de inestabilidad. Cambios sociales y políticos podrán debilitar el mercado. |
 | 7. Ventajas competitivas. | Valor agregado alto. Industria a la que no se entra fácilmente. Procesos de innovación fácilmente protegidos. | Valor agregado bajo. En este campo es fácil comenzar un negocio. |
 
