@@ -29,7 +29,7 @@
 | --- | --- | --- | 
 | 1. Raw material costs | Insured supply of raw materials. Stable availability. Low costs. | Extra costs must be paid for materials due to location or availability. |
 | 2. Cost of labor. | Good supply and availability of qualified labor. Normal wages. | High wage area. More than the industry has to offer. |
-| Distribution costs (e.g., transportation, handling, etc.) Distribution does not require large inventories or high handling costs. Transportation available. | Large inventories must be maintained. The market is very dispersed. |
+| 3. Distribution costs (e.g., transportation, handling, etc.) | Distribution does not require large inventories or high handling costs. Transportation available. | Large inventories must be maintained. The market is very dispersed. |
 | 4. Cost of sales. | The good or service sells easily with minimal sales effort. | A large sales force is required. The demand depends substantially on the sales effort |
 | 5. Efficiency of production processes. | New processes will provide long-term cost advantages. | Standard process. Ignorance of the competitor's costs may give them cost advantages. |
 | 6. Costs of after-sales services, guarantees and consumer complaints | The good needs very little service. Low warranty costs. | Product services require specially trained personnel that commercial service stores cannot provide. |
