@@ -57,9 +57,9 @@ $var->showNavigation($links);
         </div>
     </div>
 
-    <!-- Second Header -->
+    <!-- Third Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
-        <h3 class="h3 text-center">Potential market growth</h3>
+        <h3 class="h3 text-center">Costs</h3>
     </div>
 
     <div class="card-deck col-sm-6 mx-auto p-5">
@@ -78,62 +78,24 @@ $var->showNavigation($links);
         </div>
     </div>
 
-</div>
-
-<section class="row pt-sm-5">
-
-
-    <!-- Third Header -->
+    <!-- Second Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
-        <h3 class="h3 text-center">Costs</h3>
+        <h3 class="h3 text-center">Potential market growth</h3>
     </div>
 
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Raw material costs</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Cost of labor.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Distribution costs (e.g. transport, handling, etc ...)</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Cost of sales.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Efficiency of production processes.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-4">
-        <div class="card-body">
-            <h5 class="card-tittle">Costs of after-sales services, guarantees and consumer complaints</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Patents and licenses.</h5>
-            <p class="card-text">Text Here</p>
+    <div class="card-deck col-sm-6 mx-auto p-5">
+        <div class="card">
+            <div class="card-header">
+                <h5 data-bind="text: questions.actQuestMarketGrowth.title"></h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestMarketGrowth.good"></p>
+                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+            </div>
+            <div class="card-body">
+                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestMarketGrowth.bad"></p>
+                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+            </div>
         </div>
     </div>
 
@@ -142,98 +104,23 @@ $var->showNavigation($links);
         <h3 class="h3 text-center">Risks</h3>
     </div>
 
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Market stability in economic cycles</h5>
-            <p class="card-text">Text Here</p>
+    <div class="card-deck col-sm-6 mx-auto p-5">
+        <div class="card">
+            <div class="card-header">
+                <h5 data-bind="text: questions.actQuestRisks.title"></h5>
+            </div>
+            <div class="card-body">
+                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestRisks.good"></p>
+                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+            </div>
+            <div class="card-body">
+                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestRisks.bad"></p>
+                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+            </div>
         </div>
     </div>
 
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Technological risks.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Import competition.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Size and power of the competition</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Quality and reliability risks (untested design)</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Ease of demand forecasting</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Value of initial investments.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Vulnerability of inputs (supply and price)</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2 offset-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Legislation and controls.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Time required to make a profit.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Inventory needs.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2">
-        <div class="card-body">
-            <h5 class="card-tittle">Seasonal demand.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-    <div class="card col-sm-2 offset-sm-5">
-        <div class="card-body">
-            <h5 class="card-tittle">Design exclusivity.</h5>
-            <p class="card-text">Text Here</p>
-        </div>
-    </div>
-
-</section>
+</div>
 
 <?php
 $var = new Template();
