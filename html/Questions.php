@@ -367,7 +367,9 @@ $var->showBodyBootstrap();
     function nextQuestion() {
         indexActualQuestion += 1;
 
-        actualQuestion.title(currentMarket.questions[indexActualQuestion].title)
+        actualQuestion.title(currentMarket.questions[indexActualQuestion].title);
+        actualQuestion.good(currentMarket.questions[indexActualQuestion].good);
+        actualQuestion.bad(currentMarket.questions[indexActualQuestion].bad);
     }
 
     ko.applyBindings(actualQuestion);
