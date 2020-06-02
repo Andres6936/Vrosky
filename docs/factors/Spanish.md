@@ -39,16 +39,16 @@
 
 | Factor | Condición Máxima Calificación (10 Puntos) | Condición de Mínima Calificación (0 Puntos) |
 | --- | --- | --- | 
-| 1. Estabilidad del mercado en ciclos económicos. | El mercado no se afecta sustancialmente. El producto y los procesos se pueden modificar con facilidad en respuesta a la nueva tecnología. | Producto amarrado a la actual tecnología. Los avances tecnológicos ocurren con rapidez. |
-| 2. Riesgos tecnológicos. | | |
+| 1. Estabilidad del mercado en ciclos económicos. | El mercado no se afecta sustancialmente. El producto o servicio se requiere en buenos y malos tiempos. | La demanda cae sustancialmente en malos tiempos. |
+| 2. Riesgos tecnológicos. | Tecnología estable. De no serlo, el producto y los procesos se pueden modificar con facilidad en respuesta a la nueva tecnología. | Producto amarrado a la actual tecnología. Los avances tecnológicos ocurren con rápidez. |
 | 3. Competencia de importanción. | La naturaleza del producto hace imposible la importación. No hay temores visibles de importación. | El producto requiere la importación de materias primas. Alto contenido de mano de obra. Se puede embarcar fácilmente a largas distancias. |
 | 4. Tamaño y poder de la competencia. | Ningún competidor puede afectar sustancialmente la distribución del mercado.  | Los competidores poderosos pueden en cualquier momento, reducir precios para captar mercado. |
 | 5. Riesgos de calidad y confiabilidad (diseño no probado). | Calidad y confiabilidad probadas | El diseño del producto no ha sido probado totalmente. |
 | 6. Facilidad de pronóstico de la demanda. | La estimación de la demanda se hace con facilidad y precisión. Información rápidamente disponible. | Confiabilidad desconocida. No se dispone de información para estimar la demanda. La estimación es en alto grado una adivinanza. |
 | 7. Valor de las inversiones iniciales. | Inversión relativamente baja. Se puede liquidar con pérdida poca o nula. | Se requiere una inversión alta. Edificios o maquinaria especiales. Solo se pueden liquidar con gran pérdida. |
-| 8. Vulnerabilidad de los insumos (oferta y precio). | | |
+| 8. Vulnerabilidad de los insumos (oferta y precio). | Materias primas disponbles ampliamente. No se preve escasez. | Oferta de materia prima en disminución y estrechamente controlada. |
 | 9. Legislación y controles. | El producto no afecta la salud ni el medio ambiente. No hay probabilidad de controles. | Producto en región de controversia Hay controles pendientes. |
 | 10. Tiempo requerido para tener ganancias. | Las proyecciones del flujo de caja muestran ganancias en los primeros meses de operación. | Ganancias demoradas. |
 | 11. Necesidades de inventarios. | Cadena corta de distribución. Necesidades de inventarios son mínimas. | Tiempo largo de inventario de materias primas. Las necesidades de los consumidores exigen grandes inventarios de productos terminados. |
-| 12. Demanda estacional. | Demanda estable en todas las épocas. | |
+| 12. Demanda estacional. | Demanda estable en todas las épocas. | Demanda altamente estacional. No se puede tener producción todo el tiempo. |
 | 13. Exclusividad del diseño. | Diseño exclusivo que no se puede copiar con facilidad. | La innovación en el diseño se puede hacer con facilidad. No es fácil mantener liderazgo en el diseño. | 
