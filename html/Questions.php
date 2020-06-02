@@ -362,8 +362,12 @@ $var->showBodyBootstrap();
         bad: ko.observable(currentMarket.questions[0].bad),
     }
 
+    let indexActualQuestion = 0;
+
     function nextQuestion() {
-        console.log("New Question");
+        indexActualQuestion += 1;
+
+        actualQuestion.title(currentMarket.questions[indexActualQuestion].title)
     }
 
     ko.applyBindings(actualQuestion);
