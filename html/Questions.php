@@ -279,7 +279,10 @@ $var->showBodyBootstrap();
 ?>
 
 <script type='text/javascript' src='../js/knockout-3.5.1.js'></script>
+<script type="text/javascript" src="../js/Costs.js"></script>
 <script type="text/javascript" src="../js/CurrentMarket.js"></script>
+<script type="text/javascript" src="../js/MarketGrowth.js"></script>
+<script type="text/javascript" src="../js/Risks.js"></script>
 
 <script>
 
