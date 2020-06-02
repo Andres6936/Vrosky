@@ -29,10 +29,10 @@
 | --- | --- | --- | 
 | 1. Costos de materias primas. | Asegurado el suministro de materias primas. Disponibilidad estable. Costos bajos. | Se deben pagar costos extras por las materias debido a localización o disponibilidad. |
 | 2. Costo de la mano de obra. | Oferta y disponibilidad buena de mano de obra calificado. Salarios normales. | Zona de salarios altos. Se tiene que ofrecer más de los que ofrece la industria. |
-| 3. Costos de distribución (por ejemplo, trasnporte, manipuleo, etc ...) | Zona de salarios altos. Se tiene que ofrecer más de los que ofrece la industria. | Se deben mantener grandes inventarios. El mercado está muy disperso. |
+| 3. Costos de distribución (por ejemplo, trasnporte, manipuleo, etc ...) | La distribucción no exige grandes inventarios ni altos costos de manipuleo. Transporte disponible. | Se deben mantener grandes inventarios. El mercado está muy disperso. |
 | 4. Costos de ventas. | El bien o servicio se vende fácilmente con un esfuerzo mínimo de ventas. | Se requiere una gran fuerza de ventas. La demanda depende sustancialmente del esfuerzo en ventas |
 | 5. Eficacia de los procesos de producción. | Los nuevos procesos proporcionarán ventajas de costos a largo plazo. | Proceso estándar. Desconocimiento de los costos del competidor les podrá dar ventajas de costos. |
-| 6. Costos de los servicios postventas, garantías y quejas de los consumidores. | | |
+| 6. Costos de los servicios postventas, garantías y quejas de los consumidores. | El bien necesita muy poco servicio. Bajos costos de garantías. | Los servicios del producto exigen personal especialmente entrenado que los almacenes de servicio comerciales no pueden proporcionar. |
 | 7. Patentens y licencias. | No tienen costos en la región. Ya se poseen las patentes. | Hay que pagar cuotas por la licencia. |
 
 # Riesgos
