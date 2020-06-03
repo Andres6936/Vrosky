@@ -36,26 +36,43 @@ $var->showNavigation($links);
 
 <div class="container text-center">
 
-    <!-- First Header -->
-    <div class="col-12 mx-auto w-75 h-100 p-3">
-        <h3 class="h3 text-center">Current Market</h3>
-    </div>
+    <div class="row">
 
-    <div class="card-deck col-sm-6 mx-auto p-5">
-        <div class="card">
-            <div class="card-header">
-                <h5 data-bind="text: questions.actQuestCurrMarket.title"></h5>
+        <!-- First Header -->
+        <div class="col-sm-7 p-3">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h3 class="h3 text-left p-5">Current Market</h3>
+                    <p class="text-left text-muted">In particular,
+                        those related to the six components of the market: product, demand,
+                        supply, price, marketing or distribution channels and advertising or
+                        publicity. We suggest reading and, if necessary, studying in detail the
+                        appendices of this chapter, whose contents are real tools to face any
+                        market study.</p>
+                </div>
+                <div class="col-sm-5 pt-5 pl-5">
+                    <img class="float-right" src="../img/ManBuss.png" alt="Man" height="350px"">
+                </div>
             </div>
-            <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCurrMarket.good"></p>
-                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestCurrMarket()">My Case</a>
-            </div>
-            <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCurrMarket.bad"></p>
-                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestCurrMarket()">My Case</a>
+        </div>
+
+        <div class="col-sm-5 p-5">
+            <div class="card shadow-sm">
+                <div class="card-header">
+                    <h5 data-bind="text: questions.actQuestCurrMarket.title"></h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCurrMarket.good"></p>
+                    <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestCurrMarket()">My Case</a>
+                </div>
+                <div class="card-body">
+                    <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCurrMarket.bad"></p>
+                    <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestCurrMarket()">My Case</a>
+                </div>
             </div>
         </div>
     </div>
+
 
     <!-- Third Header -->
     <div class="col-12 mx-auto w-75 h-100 p-3">
