@@ -48,11 +48,11 @@ $var->showNavigation($links);
             </div>
             <div class="card-body">
                 <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCurrMarket.good"></p>
-                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestCurrMarket()">My Case</a>
             </div>
             <div class="card-body">
                 <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCurrMarket.bad"></p>
-                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestCurrMarket()">My Case</a>
             </div>
         </div>
     </div>
@@ -69,11 +69,11 @@ $var->showNavigation($links);
             </div>
             <div class="card-body">
                 <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCosts.good"></p>
-                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestCosts()">My Case</a>
             </div>
             <div class="card-body">
                 <p class="card-text font-weight-bold" data-bind="text: questions.actQuestCosts.bad"></p>
-                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestCosts()">My Case</a>
             </div>
         </div>
     </div>
@@ -90,11 +90,11 @@ $var->showNavigation($links);
             </div>
             <div class="card-body">
                 <p class="card-text font-weight-bold" data-bind="text: questions.actQuestMarketGrowth.good"></p>
-                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestMarketGrowth()">My Case</a>
             </div>
             <div class="card-body">
                 <p class="card-text font-weight-bold" data-bind="text: questions.actQuestMarketGrowth.bad"></p>
-                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestMarketGrowth()">My Case</a>
             </div>
         </div>
     </div>
@@ -111,11 +111,11 @@ $var->showNavigation($links);
             </div>
             <div class="card-body">
                 <p class="card-text font-weight-bold" data-bind="text: questions.actQuestRisks.good"></p>
-                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestRisks()">My Case</a>
             </div>
             <div class="card-body">
                 <p class="card-text font-weight-bold" data-bind="text: questions.actQuestRisks.bad"></p>
-                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestion()">My Case</a>
+                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestRisks()">My Case</a>
             </div>
         </div>
     </div>
@@ -161,12 +161,42 @@ $var->showBodyBootstrap();
 
     let indexActQuestCurrMarket = 0;
 
-    function nextQuestion() {
+    function nextQuestCurrMarket() {
         indexActQuestCurrMarket += 1;
 
         questions.actQuestCurrMarket.title(currentMarket.questions[indexActQuestCurrMarket].title);
         questions.actQuestCurrMarket.good(currentMarket.questions[indexActQuestCurrMarket].good);
         questions.actQuestCurrMarket.bad(currentMarket.questions[indexActQuestCurrMarket].bad);
+    }
+
+    let indexActQuestCosts = 0;
+
+    function nextQuestCosts() {
+        indexActQuestCosts += 1;
+
+        questions.actQuestCosts.title(costs[indexActQuestCosts].title);
+        questions.actQuestCosts.good(costs[indexActQuestCosts].good);
+        questions.actQuestCosts.bad(costs[indexActQuestCosts].bad);
+    }
+
+    let indexActQuestMarketGrowth = 0;
+
+    function nextQuestMarketGrowth() {
+        indexActQuestMarketGrowth += 1;
+
+        questions.actQuestMarketGrowth.title(marketGrowth[indexActQuestMarketGrowth].title);
+        questions.actQuestMarketGrowth.good(marketGrowth[indexActQuestMarketGrowth].good);
+        questions.actQuestMarketGrowth.bad(marketGrowth[indexActQuestMarketGrowth].bad);
+    }
+
+    let indexActQuestRisks = 0;
+
+    function nextQuestRisks() {
+        indexActQuestRisks += 1;
+
+        questions.actQuestRisks.title(risks[indexActQuestRisks].title);
+        questions.actQuestRisks.good(risks[indexActQuestRisks].good);
+        questions.actQuestRisks.bad(risks[indexActQuestRisks].bad);
     }
 
     ko.applyBindings(questions);
