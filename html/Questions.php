@@ -42,13 +42,13 @@ $var->showNavigation($links);
         <div class="col-sm-7 p-3">
             <div class="row">
                 <div class="col-sm-5">
-                    <h3 class="h3 text-left p-5">Current Market</h3>
-                    <p class="text-left text-muted">In particular,
+                    <h1 class="text-left pt-5 pb-3 font-weight-bold">Current
+                        <span class="text-danger font-weight-bold">Market</span></h1>
+                    <p class="text-left text-muted pb-4">In particular,
                         those related to the six components of the market: product, demand,
                         supply, price, marketing or distribution channels and advertising or
-                        publicity. We suggest reading and, if necessary, studying in detail the
-                        appendices of this chapter, whose contents are real tools to face any
-                        market study.</p>
+                        publicity.</p>
+                    <a class="btn btn-danger text-light font-weight-bold">Understand</a>
                 </div>
                 <div class="col-sm-5 pt-5 pl-5">
                     <img class="float-right" src="../img/ManBuss.png" alt="Man" height="350px"">
