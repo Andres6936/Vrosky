@@ -50,7 +50,7 @@ $var->showNavigation($links);
                         publicity.</p>
                     <a class="btn btn-danger text-light font-weight-bold">Understand</a>
                 </div>
-                <div class="col-sm-5 pt-5 pl-5">
+                <div class="col-sm-5 pt-5 pl-5 d-none d-sm-block">
                     <img class="float-right" src="../img/ManBuss.png" alt="Man" height="350px"">
                 </div>
             </div>
@@ -101,7 +101,7 @@ $var->showNavigation($links);
                         price and, therefore, the amount of transactions to be made.</p>
                     <a class="btn btn-primary text-light font-weight-bold">Understand</a>
                 </div>
-                <div class="col-sm-5 pt-4 pl-5">
+                <div class="col-sm-5 pt-4 pl-5 d-none d-sm-block">
                     <img class="float-right" src="../img/ManBuss.png" alt="Man" height="350px">
                 </div>
             </div>
