@@ -56,7 +56,7 @@ $var->showNavigation($links);
             </div>
         </div>
 
-        <div class="col-sm-5 p-5">
+        <div class="col-sm-5 p-sm-5">
             <div class="card shadow-sm">
                 <div class="card-header">
                     <h5 data-bind="text: questions.actQuestCurrMarket.title"></h5>
@@ -74,7 +74,7 @@ $var->showNavigation($links);
     </div>
 
     <div class="row">
-        <div class="col-sm-5 p-5">
+        <div class="col-sm-5 p-sm-5">
             <div class="card">
                 <div class="card-header">
                     <h5 data-bind="text: questions.actQuestCosts.title"></h5>
@@ -126,7 +126,7 @@ $var->showNavigation($links);
             </div>
         </div>
 
-        <div class="col-sm-5 p-5">
+        <div class="col-sm-5 p-sm-5">
             <div class="card">
                 <div class="card-header">
                     <h5 data-bind="text: questions.actQuestMarketGrowth.title"></h5>
@@ -146,7 +146,7 @@ $var->showNavigation($links);
 
     <div class="row">
 
-        <div class="col-sm-5 p-5">
+        <div class="col-sm-5 p-sm-5">
             <div class="card">
                 <div class="card-header">
                     <h5 data-bind="text: questions.actQuestRisks.title"></h5>
