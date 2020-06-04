@@ -36,7 +36,7 @@ $var->showNavigation($links);
 
 <div class="container text-center">
 
-    <div class="row">
+    <div class="row pb-5 pb-sm-0">
 
         <!-- First Header -->
         <div class="col-sm-7 p-3">
@@ -108,10 +108,10 @@ $var->showNavigation($links);
         </div>
     </div>
 
-    <div class="row">
+    <div class="row pb-5 pb-sm-0">
 
         <!-- Second Header -->
-        <div class="col-sm-7">
+        <div class="col-sm-7 pb-5 pb-sm-0">
             <div class="row">
                 <div class="col-sm-5">
                     <h1 class="text-left pt-5 pb-3 font-wright-bold">Potential
