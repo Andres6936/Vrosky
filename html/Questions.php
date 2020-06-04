@@ -144,25 +144,42 @@ $var->showNavigation($links);
 
     </div>
 
-    <!-- Fourth Header -->
-    <div class="col-12 mx-auto w-75 h-100 p-3">
-        <h3 class="h3 text-center">Risks</h3>
-    </div>
+    <div class="row">
 
-    <div class="card-deck col-sm-6 mx-auto p-5">
-        <div class="card">
-            <div class="card-header">
-                <h5 data-bind="text: questions.actQuestRisks.title"></h5>
-            </div>
-            <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestRisks.good"></p>
-                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestRisks()">My Case</a>
-            </div>
-            <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestRisks.bad"></p>
-                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestRisks()">My Case</a>
+        <div class="col-sm-5 p-5">
+            <div class="card">
+                <div class="card-header">
+                    <h5 data-bind="text: questions.actQuestRisks.title"></h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text font-weight-bold" data-bind="text: questions.actQuestRisks.good"></p>
+                    <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestRisks()">My Case</a>
+                </div>
+                <div class="card-body">
+                    <p class="card-text font-weight-bold" data-bind="text: questions.actQuestRisks.bad"></p>
+                    <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestRisks()">My Case</a>
+                </div>
             </div>
         </div>
+
+        <!-- Fourth Header -->
+        <div class="col-sm-7 mx-auto w-75 h-100 p-3">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h1 class="text-left pb-3 font-weight-bold">Risks
+                        <span class="text-warning font-weight-bold">Market</span></h1>
+                    <p class="text-left text-muted pb-4">At this stage, the product has
+                        high acceptance and an excellent level of consumption, profits
+                        are reduced, competition increases and market growth and
+                        sales are stabilized.</p>
+                    <a class="btn btn-warning text-light font-weight-bold">Understand</a>
+                </div>
+                <div class="col-sm-5 pt-4 pl-5 d-none d-sm-block">
+                    <img class="float-right" src="../img/ManBuss.png" alt="Man" height="350px">
+                </div>
+            </div>
+        </div>
+
     </div>
 
 </div>
