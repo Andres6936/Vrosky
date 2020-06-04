@@ -36,7 +36,7 @@ $var->showNavigation($links);
 
 <div class="container text-center">
 
-    <div class="row">
+    <div class="row d-none">
 
         <!-- First Header -->
         <div class="col-sm-7 p-3">
@@ -73,7 +73,7 @@ $var->showNavigation($links);
         </div>
     </div>
 
-    <div class="row">
+    <div class="row d-none">
         <div class="col-sm-5 p-5">
             <div class="card">
                 <div class="card-header">
@@ -108,25 +108,40 @@ $var->showNavigation($links);
         </div>
     </div>
 
-    <!-- Second Header -->
-    <div class="col-12 mx-auto w-75 h-100 p-3">
-        <h3 class="h3 text-center">Potential market growth</h3>
-    </div>
+    <div class="row">
 
-    <div class="card-deck col-sm-6 mx-auto p-5">
-        <div class="card">
-            <div class="card-header">
-                <h5 data-bind="text: questions.actQuestMarketGrowth.title"></h5>
-            </div>
-            <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestMarketGrowth.good"></p>
-                <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestMarketGrowth()">My Case</a>
-            </div>
-            <div class="card-body">
-                <p class="card-text font-weight-bold" data-bind="text: questions.actQuestMarketGrowth.bad"></p>
-                <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestMarketGrowth()">My Case</a>
+        <!-- Second Header -->
+        <div class="col-sm-7">
+            <div class="row">
+                <div class="col-sm-5">
+                    <h1 class="text-left pt-5 pb-3 font-wright-bold">Potential
+                        <span class="text-success font-weight-bold">Market Growth</span></h1>
+                    <p class="text-left text-muted pb-4">It is a market characterized by the influence
+                        of a single buyer or group of buyers on the price and by its low demand.</p>
+                    <a class="btn btn-success text-light font-weight-bold">Understand</a>
+                </div>
+                <div class="col-sm-5 pt-5 pl-5 d-none d-sm-block">
+                    <img class="float-right" src="../img/ManBuss.png" alt="Man" height="350px"">
+                </div>
             </div>
         </div>
+
+        <div class="col-sm-5 p-5">
+            <div class="card">
+                <div class="card-header">
+                    <h5 data-bind="text: questions.actQuestMarketGrowth.title"></h5>
+                </div>
+                <div class="card-body">
+                    <p class="card-text font-weight-bold" data-bind="text: questions.actQuestMarketGrowth.good"></p>
+                    <a class="btn btn-primary text-light font-weight-bold" onclick="nextQuestMarketGrowth()">My Case</a>
+                </div>
+                <div class="card-body">
+                    <p class="card-text font-weight-bold" data-bind="text: questions.actQuestMarketGrowth.bad"></p>
+                    <a class="btn btn-danger text-light font-weight-bold" onclick="nextQuestMarketGrowth()">My Case</a>
+                </div>
+            </div>
+        </div>
+
     </div>
 
     <!-- Fourth Header -->
