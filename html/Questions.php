@@ -36,7 +36,7 @@ $var->showNavigation($links);
 
 <div class="container text-center">
 
-    <div class="row d-none">
+    <div class="row">
 
         <!-- First Header -->
         <div class="col-sm-7 p-3">
@@ -73,7 +73,7 @@ $var->showNavigation($links);
         </div>
     </div>
 
-    <div class="row d-none">
+    <div class="row">
         <div class="col-sm-5 p-5">
             <div class="card">
                 <div class="card-header">
