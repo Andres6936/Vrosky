@@ -175,7 +175,7 @@ $var->showNavigation($links);
                     <a class="btn btn-warning text-light font-weight-bold">Understand</a>
                 </div>
                 <div class="col-sm-5 pt-4 pl-5 d-none d-sm-block">
-                    <img class="float-right" src="../img/ManBuss.png" alt="Man" height="350px">
+                    <img class="float-right" src="../img/WomenOrange.png" alt="Man" height="350px">
                 </div>
             </div>
         </div>
