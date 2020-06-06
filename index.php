@@ -69,8 +69,10 @@ $var->showNavigation($links);
     <!-- First Position -->
     <div class="bg-dark mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-white overflow-hidden">
         <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+            <h2 class="display-5">Growth</h2>
+            <p class="lead col-sm-10 mx-auto">Period consolidation in the market, characterized by the
+                need to know the reaction of the competition and to make adjustments to prices and
+                product improvements.</p>
         </div>
         <div class="bg-light shadow-sm mx-auto" style="width: 80%; height: 300px;
             border-radius: 21px 21px 0 0">
@@ -80,8 +82,10 @@ $var->showNavigation($links);
     <!-- Second Position -->
     <div class="bg-light mr-md-3 pt-3 px-3 pt-md-5 px-md-5 text-center text-dark overflow-hidden">
         <div class="my-3 py-3">
-            <h2 class="display-5">Another headline</h2>
-            <p class="lead">And an even wittier subheading.</p>
+            <h2 class="display-5">Maturity and saturation</h2>
+            <p class="lead col-sm-10 mx-auto">At this stage, the product has a high acceptance and an excellent
+                level of consumption, profits are reduced, competition is increased and market
+                growth and sales are stabilized.</p>
         </div>
         <div class="bg-dark shadow-sm mx-auto" style="width: 80%; height: 300px;
             border-radius: 21px 21px 0 0">
