@@ -32,22 +32,6 @@ $var->showNavigation($links);
 ?>
 
 <div class="container">
-    <section id="newsletter" class="row">
-        <h4 class="col-sm-12 py-5 text-center">Stay connected with us. Join the newsletter to receive fresh info.</h4>
-        <form class="form-inline offset-sm-3 col-sm-6" method="POST">
-            <div class="form-group col-sm-4 col-xs-12">
-                <label for="newsletter-name"></label>
-                <input id="newsletter-name" class="form-control" placeholder="You name">
-            </div>
-            <div class="form-group col-sm-4 col-xs-12">
-                <label for="newsletter-email"></label>
-                <input id="newsletter-email" class="form-control" placeholder="Your email">
-            </div>
-            <div class="col-sm-4 col-xs-12">
-                <button type="submit" class="btn btn-primary btn-block">Join now!</button>
-            </div>
-        </form>
-    </section>
 
     <section class="row">
         <form class="form-horizontal col-sm-6 offset-sm-3 py-5">
@@ -77,6 +61,28 @@ $var->showNavigation($links);
             </div>
         </form>
     </section>
+</div>
+
+<div class="container-fluid">
+
+    <section id="newsletter" class="row bg-info">
+        <h3 class="col-sm-12 py-5 text-center text-light font-weight-bold">
+            Stay connected with us. Join the newsletter to receive fresh info.</h3>
+        <form class="form-inline offset-sm-3 col-sm-6 pb-5" method="POST">
+            <div class="form-group col-sm-4 col-xs-12">
+                <label for="newsletter-name"></label>
+                <input id="newsletter-name" class="form-control" placeholder="You name">
+            </div>
+            <div class="form-group col-sm-4 col-xs-12">
+                <label for="newsletter-email"></label>
+                <input id="newsletter-email" class="form-control" placeholder="Your email">
+            </div>
+            <div class="col-sm-4 col-xs-12">
+                <button type="submit" class="btn btn-success btn-block">Join now!</button>
+            </div>
+        </form>
+    </section>
+
 </div>
 
 <?php
